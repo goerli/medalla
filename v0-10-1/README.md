@@ -21,7 +21,7 @@ lighthouse bn \
   --testnet-dir ./lighthouse \
   --spec mainnet \
   --eth1 --eth1-endpoint http://127.0.0.1:8545 \
-  --libp2p-addresses /ip4/51.158.190.99/tcp/9000,/ip4/51.158.190.99/tcp/9500,/ip4/51.15.70.7/tcp/9000,/ip4/51.15.97.240/tcp/9000 \
+  --libp2p-addresses /ip4/51.158.190.99/tcp/9000,/ip4/51.158.190.99/tcp/9500,/ip4/51.15.70.7/tcp/9000,/ip4/51.15.97.240/tcp/9000,/ip4/51.15.97.240/tcp/9500,/ip4/51.15.70.7/tcp/9500 \
   --port 9000 \
   --discovery-address `curl ifconfig.me`
 ```
