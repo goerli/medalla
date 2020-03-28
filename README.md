@@ -1,6 +1,9 @@
 # schlesi
 documenting ethereum 2.0 multi-client testnet efforts.
 
+- chain configuration: [schlesi.yaml](./schlesi.yaml)
+- deposit contract: `0xaA888248144Bc5d584a7f400839d0D912F21C39A` ([görli testnet](https://github.com/goerli/testnet))
+
 ### [v0.10.1](./v0-10-1/)
 
 contains the client configuration and genesis state for the v0.10.1 legacy spec interop testnet.
