@@ -18,10 +18,10 @@ config:
 
 ```
 lighthouse bn \
-  --testnet-dir ./v0-10-1/lighthouse \      
+  --testnet-dir ./lighthouse \
   --spec mainnet \
   --eth1 --eth1-endpoint http://127.0.0.1:8545 \
-  --libp2p-addresses /ip4/51.158.190.99/tcp/9000/p2p/16Uiu2HAm3XrDjg9GdaErVnof3RDqTFX84RAzonWgrkpXfC5Lgud8,/ip4/51.158.190.99/tcp/9500/p2p/16Uiu2HAmJ1LHCDcLvt9wWHfzxAhrrsBwzF9HHfe4ybiRH3XhwHit \
+  --libp2p-addresses /ip4/51.158.190.99/tcp/9000,/ip4/51.158.190.99/tcp/9500,/ip4/51.15.70.7/tcp/9000,/ip4/51.15.97.240/tcp/9000 \
   --port 9000 \
   --discovery-address `curl ifconfig.me`
 ```
@@ -36,8 +36,8 @@ config:
 
 ```
 teku \
-  --config ./v0-10-1/teku/config.toml \
-  --network ./v0-10-1/teku/chain-spec.yaml \
-  --Xinterop-start-state ./v0-10-1/teku/genesis.ssz \
+  --config-file ./teku/config.toml \
+  --network ./teku/chain-spec.yaml \
+  --Xinterop-start-state ./teku/genesis.ssz \
   --p2p-advertised-ip `curl ifconfig.me`
   ```
