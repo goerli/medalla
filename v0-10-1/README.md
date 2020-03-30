@@ -1,20 +1,20 @@
-# schlesi v0.10.1
+# Schlesi `v0.10`
 
-client configurations in order of appearance on the testnet
+Configurations of clients implementing the `v0.10.1` ETH 2.0 specification, in order of appearance on the testnet.
 
-### lighthouse
+### Lighthouse
 
-lighthouse was used to bootstrap the _schlesi_ network.
+Lighthouse was used to bootstrap the _Schlesi v0.10_ test network. The required branch is `testnet5`.
 
-tested:
-- [x] networking
-- [x] synchronization
-- [x] validation
+Tested:
+- [x] Networking
+- [x] Synchronization
+- [x] Validation
 
-known issues:
-- [ ] network fragmentation, ref [sigp/lighthouse#949](https://github.com/sigp/lighthouse/issues/949)
+Known issues:
+- [ ] Network fragmentation, ref [sigp/lighthouse#949](https://github.com/sigp/lighthouse/issues/949)
 
-config:
+Run:
 
 ```
 lighthouse bn \
@@ -26,13 +26,17 @@ lighthouse bn \
   --discovery-address `curl ifconfig.me`
 ```
 
+Adjust addresses and ports as for your needs.
+
 ### teku
 
-tested:
-- [x] networking
-- [x] synchronization
+Teku implements a baseline compatibility with the `v0.10.1` spec in the `master` branch.
 
-config:
+Tested:
+- [x] Networking
+- [x] Synchronization
+
+Run:
 
 ```
 teku \
@@ -41,3 +45,5 @@ teku \
   --Xinterop-start-state ./teku/genesis.ssz \
   --p2p-advertised-ip `curl ifconfig.me`
   ```
+
+See `./teku/config.toml` for more configuration options.
