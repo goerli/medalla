@@ -3,7 +3,7 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 
 _This is work in progress._
 - Preliminary chain configuration: [`./schlesi.yaml`](./schlesi.yaml)
-- Deposit contract: `0xaA888248144Bc5d584a7f400839d0D912F21C39A` ([görli testnet](https://github.com/goerli/testnet))
+- Deposit contract: `0xaA888248144Bc5d584a7f400839d0D912F21C39A` ([Goerli Testnet](https://github.com/goerli/testnet))
 - Current ETH 2.0 specification version support:
   - [x] v0.10.1
   - [ ] v0.11.0
@@ -23,7 +23,7 @@ Supported clients:
 - [x] Teku (Java, PegaSys Engineering)
 - [ ] Trinity (Python, Ethereum Foundation)
 
-Clients will be added one by one if they manage to connect, synchronize, and stay in consensus.
+Clients will be added one by one if they manage to connect, synchronize, and stay in consensus. _This is work in progress._
 
 ### `v0.11.x`
 _Pending implementations._
@@ -60,13 +60,14 @@ The focus of the testnet is no longer developer but end-user centric. Each user 
 Additionally, not having a script that does the job for you, ensures that all node implementations and their according tooling are well documented across the different clients.
 
 ##### Why do you call it _Schlesi_?
-Schlesi is a subway station in Berlin with proximity to _Goerli_ and _Full Node_.
+Schlesi (Schlesisches Tor) is a subway station in Berlin with proximity to _Goerli_ and _Full Node_.
 
 ##### What is the _Goerli_ testnet?
 Goerli is a cross-client proof-of-authority [Ethereum 1.x testnet](https://github.com/goerli/testnet). It's well supported across all ETH 1.0 clients, tooling, and infrastructure, and will be used to test the ETH 2.0 transition through a deposit contract deployed to Goerli.
 
 ### See also
 Resources:
+- [Notes: Longstanding MC-testnet(s)](https://notes.ethereum.org/DLu2WPtDSMOeNlnBth03Dw)
 - [Article: How to run your own Beacon Chain](https://dev.to/q9/how-to-run-your-own-beacon-chain-e70)
 - [Stack Exchange: What does the beacon chain deposit contract ceremony entail?](https://ethereum.stackexchange.com/questions/80258/what-does-the-beacon-chain-deposit-contract-ceremony-entail)
 - [Stack Exchange: How would a chain specification for a beacon chain look like?](https://ethereum.stackexchange.com/questions/80264/how-would-a-chain-specification-for-a-beacon-chain-look-like)
