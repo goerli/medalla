@@ -1,0 +1,41 @@
+# network
+network: "./chain-spec.yaml"
+
+# p2p
+p2p-enabled: True
+p2p-interface: "0.0.0.0"
+p2p-port: 9000
+p2p-discovery-enabled: True
+p2p-advertised-port: 9000
+### p2p-private-key-file: "path/to/file"
+### p2p-static-peers: []
+### p2p-discovery-bootnodes: []
+
+# interop
+Xinterop-genesis-time: 1587298800
+### Xinterop-owned-validator-start-index: 0
+### Xinterop-owned-validator-count: 64
+Xinterop-start-state: ""
+### Xinterop-start-state: "./genesis.ssz"
+### Xinterop-number-of-validators: 64
+Xinterop-enabled: True
+
+# validator
+### validators-key-file: "path/to/keys.yaml"
+
+# deposit
+eth1-deposit-contract-address: "0xB62E32e46f21652775F2FC0AA4B3aD54620A2A3C"
+eth1-endpoint: "http://127.0.0.1:9779"
+
+# logging
+logging: "INFO"
+log-color-enabled: True
+log-include-events-enabled: True
+log-destination: "both"
+### log-file: "teku.log"
+### log-file-name-pattern: "teku_%d{yyyy-MM-dd}.log"
+
+# beacon rest api
+rest-api-port: 5051
+rest-api-enabled: True
+rest-api-interface: "127.0.0.1"
