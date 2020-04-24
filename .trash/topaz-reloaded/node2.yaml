@@ -1,0 +1,12 @@
+http-web3provider: "http://localhost:9779"
+web3provider: "ws://localhost:9778"
+no-custom-config: true
+datadir: /tmp/prysm/peernodedata
+force-clear-db: true
+interop-genesis-state: /home/user/.opt/goerli/schlesi/topaz-reloaded/genesis.ssz
+interop-eth1data-votes: true
+min-sync-peers: 1
+p2p-udp-port: 14232
+p2p-tcp-port: 14231
+monitoring-port: 8081
+rpc-port: 4001

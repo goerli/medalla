@@ -1,0 +1,6 @@
+no-custom-config: true
+keymanager: interop
+keymanageropts: '{"keys":64,"offset":0}'
+disable-protect-attester: true
+disable-protect-proposer: true
+datadir: /tmp/prysm/validator
