@@ -32,13 +32,13 @@ cd schlesi/
 Run a previously compiled beacon node:
 
 ```
-lighthouse bn --testnet-dir PATH/TO/schlesi/light
+lighthouse bn --testnet-dir ./light
 ```
 
 If you plan to run a validator on Schlesi, enable the Rest API with ` --http`:
 
 ```
-lighthouse bn --testnet-dir PATH/TO/schlesi/light --http
+lighthouse bn --testnet-dir ./light --http
 ```
 
 ### Validator Deposits
@@ -49,13 +49,13 @@ Assuming you have a Goerli node running on localhost with RPC enabled on port `8
 
 ```
 lighthouse account validator new \
---testnet-dir --testnet-dir PATH/TO/schlesi/light \
+--testnet-dir --testnet-dir ./light \
 --send-deposits \
---password PATH/TO/password.txt \
+--password ./password.txt \
 --deposit-value 32000000000 random
 ```
 
-Make sure your `password.txt` contains the password for your first Goerli testnet account (`eth.accounts[0]`) which has sufficient funds (> 32 GöETH).
+Make sure your `./password.txt` contains the password for your first Goerli testnet account (`eth.accounts[0]`) which has sufficient funds (> 32 GöETH).
 
 It's recommended to use a Geth node as ETH1 provider.
 
@@ -64,7 +64,7 @@ It's recommended to use a Geth node as ETH1 provider.
 To start validating, open another terminal and launch the validator client:
 
 ```
-lighthouse vc --testnet-dir PATH/TO/schlesi/light
+lighthouse vc --testnet-dir ./light
 ```
 
 Please create an issue if this does not work. We will figure it out: https://github.com/goerli/schlesi/issues/new
