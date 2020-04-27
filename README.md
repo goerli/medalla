@@ -18,6 +18,8 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Teku [teku/](teku/) _(WIP)_
 - [ ] Trinity
 
+[![Genesis Recording](.res/genesis-v011.png)](https://asciinema.org/a/324317)
+
 Known issues:
 - [ ] Spec: [clarify that eth1 timestamp can be less than min genesis time #1756](https://github.com/ethereum/eth2.0-specs/pull/1756)
 - [ ] Ligthhouse: [Eth1 genesis time is incorrect #1051](https://github.com/sigp/lighthouse/issues/1051)
