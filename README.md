@@ -11,16 +11,19 @@ _This is work in progress._
 ### `v0.11.1`
 This repository contains the client configuration files and genesis state for the `v0.11.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
 - [ ] Cortex
-- [x] Lighthouse [light/](light/)
+- [x] Lighthouse [config: `light/`](light/), [readme](light/README.md)
 - [ ] Lodestar
 - [ ] Nimbus
-- [x] Prysm [prysm/](prysm/)
-- [ ] Teku [teku/](teku/) _(WIP)_
+- [x] Prysm [config: `prysm/`](prysm/), [readme](prysm/README.md)
+- [ ] Teku [config: `teku/`](teku/) _(WIP)_
 - [ ] Trinity
 
 [![Genesis Recording](.res/genesis-v011.png)](https://asciinema.org/a/324317)
 
 Known issues:
+- [ ] Prysm: [ERROR sync: Failed to handle p2p pubsub error=attestation is not aggregated #5649](https://github.com/prysmaticlabs/prysm/issues/5649)
+- [ ] Lighthouse: [thread 'tokio-runtime-worker-7' panicked at 'elapsed=7481664; when=7481664' #1067](https://github.com/sigp/lighthouse/issues/1067)
+- [ ] Lighthouse: [No valid eth1_data votes, `votes_to_consider` empty, outcome: casting `state.eth1_data` as eth1 vote #1066](https://github.com/sigp/lighthouse/issues/1066)
 - [ ] Spec: [clarify that eth1 timestamp can be less than min genesis time #1756](https://github.com/ethereum/eth2.0-specs/pull/1756)
 - [ ] Ligthhouse: [Eth1 genesis time is incorrect #1051](https://github.com/sigp/lighthouse/issues/1051)
 - [x] ~~Prysm: [Prysm launches beacon chain 1 hour before Lighthouse #5616](https://github.com/prysmaticlabs/prysm/issues/5616)~~
