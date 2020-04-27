@@ -11,10 +11,10 @@ _This is work in progress._
 ### `v0.11.1`
 This repository contains the client configuration files and genesis state for the `v0.11.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
 - [ ] Cortex
-- [x] Lighthouse [config: `light/`](light/), [readme](light/README.md)
+- [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
 - [ ] Lodestar
 - [ ] Nimbus
-- [x] Prysm [config: `prysm/`](prysm/), [readme](prysm/README.md)
+- [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
 - [ ] Teku [config: `teku/`](teku/) _(WIP)_
 - [ ] Trinity
 
@@ -33,21 +33,6 @@ Known issues:
 - [ ] Lighthouse: [Beacon Node: Unable to recover from network fragmentation #949](https://github.com/sigp/lighthouse/issues/949)
 
 Clients will be added one by one if they manage to connect, synchronize, and stay in consensus. _Work in progress._
-
-
-### ~~[`v0.10.1`](.trash/v0-10-1)~~
-This repository contains the client configuration files and genesis state for the `v0.10.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.10"_ in [`.trash/v0-10-1`](.trash/v0-10-1).
-
-Supported clients:
-- [ ] Cortex (C#, Nethermind)
-- [x] Lighthouse (Rust, Sigma Prime)
-- [ ] Lodestar (TypeScript, ChainSafe)
-- [ ] Nimbus (Nim, Status)
-- [ ] Prysm (Go, Prysmatic Labs)
-- [x] Teku (Java, PegaSys Engineering)
-- [ ] Trinity (Python, Ethereum Foundation)
-
-~~Clients will be added one by one if they manage to connect, synchronize, and stay in consensus.~~ _Moved on to v0.11.1._
 
 ### F.A.Q.
 _I'm wondering why ..._
