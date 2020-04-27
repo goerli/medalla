@@ -2,31 +2,47 @@
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
 
 _This is work in progress._
-- Preliminary chain configuration: [`./schlesi.yaml`](./schlesi.yaml)
-- Deposit contract: `0xaA888248144Bc5d584a7f400839d0D912F21C39A` ([Goerli Testnet](https://github.com/goerli/testnet))
+- Deposit contract: `0xA15554BF93a052669B511ae29EA21f3581677ac5` ([Goerli Testnet](https://github.com/goerli/testnet))
 - Current ETH 2.0 specification version support:
-  - [x] v0.10.1
-  - [ ] v0.11.0
-  - [ ] v0.11.1
+  - [x] v0.10.1 (moved to `.trash/`)
+  - [x] v0.11.1
+  - [ ] v0.12.1
 
-### [`v0.10.1`](./v0-10-1)
-This repository contains the client configuration files and genesis state for the `v0.10.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.10"_ in [`./v0-10-1`](./v0-10-1).
+### `v0.11.1`
+This repository contains the client configuration files and genesis state for the `v0.11.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
+- [ ] Cortex
+- [x] Lighthouse [light/](light/)
+- [ ] Lodestar
+- [ ] Nimbus
+- [x] Prysm [prysm/](prysm/)
+- [ ] Teku [teku/](teku/) _(WIP)_
+- [ ] Trinity
+
+Known issues:
+- [ ] Spec: [clarify that eth1 timestamp can be less than min genesis time #1756](https://github.com/ethereum/eth2.0-specs/pull/1756)
+- [ ] Ligthhouse: [Eth1 genesis time is incorrect #1051](https://github.com/sigp/lighthouse/issues/1051)
+- [x] ~~Prysm: [Prysm launches beacon chain 1 hour before Lighthouse #5616](https://github.com/prysmaticlabs/prysm/issues/5616)~~
+- [ ] Teku: [Unable to peer with Lighthouse or Prysm #1666](https://github.com/PegaSysEng/teku/issues/1666)
+- [ ] Prysm: [Do not reject peers if --p2p-max-peers is reached #5588](https://github.com/prysmaticlabs/prysm/issues/5588)
+- [ ] Prysm: [Failed to handle p2p RPC error=rate limited #5587](https://github.com/prysmaticlabs/prysm/issues/5587)
+- [ ] Lighthouse: [Beacon Node: Unable to recover from network fragmentation #949](https://github.com/sigp/lighthouse/issues/949)
+
+Clients will be added one by one if they manage to connect, synchronize, and stay in consensus. _Work in progress._
+
+
+### ~~[`v0.10.1`](.trash/v0-10-1)~~
+This repository contains the client configuration files and genesis state for the `v0.10.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.10"_ in [`.trash/v0-10-1`](.trash/v0-10-1).
 
 Supported clients:
 - [ ] Cortex (C#, Nethermind)
-- [ ] Harmony (Java, Harmony Dev)
 - [x] Lighthouse (Rust, Sigma Prime)
 - [ ] Lodestar (TypeScript, ChainSafe)
 - [ ] Nimbus (Nim, Status)
 - [ ] Prysm (Go, Prysmatic Labs)
-- [ ] Shasper (Rust, Parity Technologies)
 - [x] Teku (Java, PegaSys Engineering)
 - [ ] Trinity (Python, Ethereum Foundation)
 
-Clients will be added one by one if they manage to connect, synchronize, and stay in consensus. _This is work in progress._
-
-### `v0.11.x`
-_Pending implementations._
+~~Clients will be added one by one if they manage to connect, synchronize, and stay in consensus.~~ _Moved on to v0.11.1._
 
 ### F.A.Q.
 _I'm wondering why ..._
@@ -39,7 +55,7 @@ Before such a mainnet can be launched, we need testnets that mimic mainnet condi
 The Schlesi testnet is one of many steps in that direction.
 
 ##### Is _Schlesi_ an incentivized adversarial network?
-No. The Schlesi testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0xaA888248144Bc5d584a7f400839d0D912F21C39A`](https://goerli.etherscan.io/address/0xaa888248144bc5d584a7f400839d0d912f21c39a) on the _Goerli_ Ethereum testnet and start validating on Schlesi.
+No. The Schlesi testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) on the _Goerli_ Ethereum testnet and start validating on Schlesi.
 
 ##### What's the difference between Schlesi and _Interop_?
 The [ETH 2.0 Interop Lock-In](https://blog.ethereum.org/2019/09/19/eth2-interop-in-review/) was a physical meetup of seven client teams working towards interoperability in 2019. This was the first major step towards multi-client testnets, even though the focus of the lock-in was mainly on networking. Other aspects of interoperability were playing minor roles.
