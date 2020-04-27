@@ -49,7 +49,7 @@ Assuming you have a Goerli node running on localhost with RPC enabled on port `8
 
 ```
 lighthouse account validator new \
---testnet-dir --testnet-dir ./light \
+--testnet-dir ./light \
 --send-deposits \
 --password ./password.txt \
 --deposit-value 32000000000 random
