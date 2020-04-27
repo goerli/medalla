@@ -6,7 +6,7 @@ _This is work in progress._
 - Current ETH 2.0 specification version support:
   - [x] v0.10.1 (moved to `.trash/`)
   - [x] v0.11.1
-  - [ ] v0.12.1
+  - [ ] v0.12.x
 
 ### `v0.11.1`
 This repository contains the client configuration files and genesis state for the `v0.11.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
