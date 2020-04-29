@@ -10,15 +10,9 @@ _Note:_ Bazel will manage the build and dependencies, for other options, please 
 
 To connect to Schlesi v0.11, you would have to compile Prysm from `v0.12` branch. _Right_ --- `v0.12` contains a patch that is necessary for the v0.11 spec. Let's not get confused about the versioning here. :)
 
-In addition, it requires a custom patch for allowing a lower deposit count threshold: [gist/q9f/090f017abba9809f8cf7055aac5ecf16](https://gist.github.com/q9f/090f017abba9809f8cf7055aac5ecf16)
-
 ```
 git checkout v0.12
-wget https://gist.github.com/q9f/090f017abba9809f8cf7055aac5ecf16/raw/fe7385845670e137fabbd77b8e9d22b8ebf9efa2/schlesi.patch
-git apply schlesi.patch
 ```
-
-We'll be working towards adding a Schlesi flag to Prysm in future to ease this process.
 
 Bazel build compiles everything:
 
@@ -33,11 +27,16 @@ Run your patched beacon node:
 
 ```
 bazel run //beacon-chain -- \
+--schlesi-testnet \
 --min-sync-peers 1 \
 --contract-deployment-block 2596126 \
 --deposit-contract "0xA15554BF93a052669B511ae29EA21f3581677ac5" \
---custom-genesis-delay 3600 \
---bootstrap-node "/ip4/51.15.119.157/tcp/9000/p2p/16Uiu2HAkvLCWwVEfF365ZWXB6siDL1mUpcd1XQ1nSXAHmvM5W7wn,/ip4/51.15.119.157/tcp/13000/p2p/16Uiu2HAmNYCpko7ahZrZrzcpJRjL6bJ3JmPFiCbb9bgR3UHbHBsH"
+--peer "/ip4/51.15.119.157/tcp/9000/p2p/16Uiu2HAkvLCWwVEfF365ZWXB6siDL1mUpcd1XQ1nSXAHmvM5W7wn" \
+--peer "/ip4/51.15.119.157/tcp/9500/p2p/16Uiu2HAmSUvW1q4yH4QzZGpWHrLvpCzPdufSFex5odbhNj6zDEjQ" \
+--peer "/ip4/51.15.119.157/tcp/13000/p2p/16Uiu2HAmNYCpko7ahZrZrzcpJRjL6bJ3JmPFiCbb9bgR3UHbHBsH" \
+--peer "/ip4/51.15.119.157/tcp/13500/p2p/16Uiu2HAm37N426LzqRQF7YCo2u7HRCkAGrxPhv4QHxGu6YE51YWJ" \
+--bootstrap-node "enr:-LK4QJ-6k6QytxOn7P9BdDZHXesHz3aaglpvo-VcTGc-rfr5H4DBzjQsjg6stZoy1H-p3yK21IISkJHe742QTVwRS_IEh2F0dG5ldHOIAAAAAAAAAACEZXRoMpCZJe_WAAAAAP__________gmlkgnY0gmlwhDMPd52Jc2VjcDI1NmsxoQINdLr6UY7y2CzshX4n_BbdYM1G40rpdEs84Mdoyv_ZyYN0Y3CCIyiDdWRwgiMo" \
+--bootstrap-node "enr:-LK4QJS5Rn_kkA2MQpieVDUao5vkBj3kE15S_JJepGA9MNfndwHyfBWSjmAa5T_qvkGklrDiZXqlIAahXTm_eH_IXY8Ch2F0dG5ldHOIAAAAAAAAAACEZXRoMpCZJe_WAAAAAP__________gmlkgnY0gmlwhDMPd52Jc2VjcDI1NmsxoQOS1-hRSwsxLo2PH3RKtwWdjLdT1IMX2nqkQAlHs5E7LIN0Y3CCMsiDdWRwgi7g"
 ```
 
 ### Validator Deposits
