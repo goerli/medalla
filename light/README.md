@@ -6,12 +6,10 @@ This document describes how to connect to and participate in the Schlesi testnet
 
 This requires Rust, of course, get it here: https://rustup.rs/
 
-To connect to Schlesi v0.11, you would have to compile Lighthouse from `master` branch with PR [#1052](https://github.com/sigp/lighthouse/pull/1052) applied.
+To connect to Schlesi v0.11, you would have to compile Lighthouse from `master` branch.
 
 ```
 git checkout master
-wget https://patch-diff.githubusercontent.com/raw/sigp/lighthouse/pull/1052.patch
-git apply 1052.patch
 ```
 
 Make sure to build in release mode.
