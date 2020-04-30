@@ -5,7 +5,7 @@ _This is work in progress._
 - Deposit contract: `0xA15554BF93a052669B511ae29EA21f3581677ac5` ([Goerli Testnet](https://github.com/goerli/testnet))
 - Current ETH 2.0 specification version support:
   - [x] v0.10.1 (moved to `.trash/`)
-  - [x] v0.11.1
+  - [x] v0.11.1 https://schlesi.beaconcha.in/
   - [ ] v0.12.x
 
 ### `v0.11.1`
