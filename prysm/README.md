@@ -23,7 +23,7 @@ bazel build //validator:validator
 
 ### Beacon Node
 
-Run your patched beacon node:
+Run your beacon node:
 
 ```
 bazel run //beacon-chain -- \
@@ -39,9 +39,11 @@ bazel run //beacon-chain -- \
 --bootstrap-node "enr:-LK4QJS5Rn_kkA2MQpieVDUao5vkBj3kE15S_JJepGA9MNfndwHyfBWSjmAa5T_qvkGklrDiZXqlIAahXTm_eH_IXY8Ch2F0dG5ldHOIAAAAAAAAAACEZXRoMpCZJe_WAAAAAP__________gmlkgnY0gmlwhDMPd52Jc2VjcDI1NmsxoQOS1-hRSwsxLo2PH3RKtwWdjLdT1IMX2nqkQAlHs5E7LIN0Y3CCMsiDdWRwgi7g"
 ```
 
+_Note,_ Prysm allows you to use the `--peer` and `--bootstrap-node` flags multiple times.
+
 ### Validator Deposits
 
-The validator contract is deployed on Goerli testnet address [0xA15554BF93a052669B511ae29EA21f3581677ac5](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5).
+The validator contract is deployed on Goerli testnet address [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5).
 
 To generate a new validator keypair, run:
 
