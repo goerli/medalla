@@ -2,10 +2,10 @@
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
 
 _This is work in progress._
-- Deposit contract: `0xA15554BF93a052669B511ae29EA21f3581677ac5` ([Goerli Testnet](https://github.com/goerli/testnet))
+- Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
 - Current ETH 2.0 specification version support:
-  - [x] v0.10.1 (moved to `.trash/`)
-  - [x] v0.11.1 https://schlesi.beaconcha.in/
+  - [x] ~~v0.10.1~~ (retired & moved to `.trash/`)
+  - [x] v0.11.1 **Chain Explorer:** https://schlesi.beaconcha.in/
   - [ ] v0.12.x
 
 ### `v0.11.1`
@@ -15,9 +15,10 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Lodestar
 - [ ] Nimbus
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
-- [ ] Teku [config: `teku/`](teku/) _(WIP)_
+- [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md)
 - [ ] Trinity
 
+Genesis event happened at 10:00 am UTC on APr/27, 2020.
 [![Genesis Recording](.res/genesis-v011.png)](https://asciinema.org/a/324317)
 
 Known issues:
@@ -26,13 +27,12 @@ Known issues:
 - [x] Lighthouse: [No valid eth1_data votes, `votes_to_consider` empty, outcome: casting `state.eth1_data` as eth1 vote #1066](https://github.com/sigp/lighthouse/issues/1066)
 - [x] Spec: [clarify that eth1 timestamp can be less than min genesis time #1756](https://github.com/ethereum/eth2.0-specs/pull/1756)
 - [x] Ligthhouse: [Eth1 genesis time is incorrect #1051](https://github.com/sigp/lighthouse/issues/1051)
-- [x] ~~Prysm: [Prysm launches beacon chain 1 hour before Lighthouse #5616](https://github.com/prysmaticlabs/prysm/issues/5616)~~
 - [ ] Teku: [Unable to peer with Lighthouse or Prysm #1666](https://github.com/PegaSysEng/teku/issues/1666)
 - [ ] Prysm: [Do not reject peers if --p2p-max-peers is reached #5588](https://github.com/prysmaticlabs/prysm/issues/5588)
 - [x] Prysm: [Failed to handle p2p RPC error=rate limited #5587](https://github.com/prysmaticlabs/prysm/issues/5587)
 - [x] Lighthouse: [Beacon Node: Unable to recover from network fragmentation #949](https://github.com/sigp/lighthouse/issues/949)
 
-Clients will be added one by one if they manage to connect, synchronize, and stay in consensus. _Work in progress._
+Clients will be added one by one once they manage to connect, synchronize, and stay in consensus. _Work in progress._
 
 ### F.A.Q.
 _I'm wondering why ..._
@@ -72,14 +72,15 @@ Schlesi (Schlesisches Tor) is a subway station in Berlin with proximity to _Goer
 Goerli is a cross-client proof-of-authority [Ethereum 1.x testnet](https://github.com/goerli/testnet). It's well supported across all ETH 1.0 clients, tooling, and infrastructure, and will be used to test the ETH 2.0 transition through a deposit contract deployed to Goerli.
 
 ### See also
+In the news:
+- [Ethereum 2.0 Specter Grows with Launch of “Schlesi” Multi-Client Testnet](https://blockonomi.com/ethereum-2-launch-schlesi-multi-client-testnet/)
+- [Ethereum 2.0's Phase 0 multiclient testnets will likely go live in April](https://www.theblockcrypto.com/post/60292/ethereum-2-0s-phase-0-multiclient-testnets-will-likely-go-live-in-april-predicts-buterin)
+
 Resources:
 - [Notes: Longstanding MC-testnet(s)](https://notes.ethereum.org/DLu2WPtDSMOeNlnBth03Dw)
 - [Article: How to run your own Beacon Chain](https://dev.to/q9/how-to-run-your-own-beacon-chain-e70)
 - [Stack Exchange: What does the beacon chain deposit contract ceremony entail?](https://ethereum.stackexchange.com/questions/80258/what-does-the-beacon-chain-deposit-contract-ceremony-entail)
 - [Stack Exchange: How would a chain specification for a beacon chain look like?](https://ethereum.stackexchange.com/questions/80264/how-would-a-chain-specification-for-a-beacon-chain-look-like)
-
-In the news:
-- [Ethereum 2.0's Phase 0 multiclient testnets will likely go live in April](https://www.theblockcrypto.com/post/60292/ethereum-2-0s-phase-0-multiclient-testnets-will-likely-go-live-in-april-predicts-buterin)
 
 Historical documentation:
 - [Gist: Schlesi ETH 2.0 Multi-Client Testnet configuration](https://gist.github.com/q9f/d6eea3ea3356e41bde81864143284ce9)
