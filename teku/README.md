@@ -30,8 +30,6 @@ Run a previously compiled teku node:
 teku --config-file ./teku/config.yaml --network ./teku/chain.yaml --initial-state ./teku/genesis.ssz
 ```
 
-_@TODO make this work_
-
 ### Validator Client
 
 _@TODO document this_

@@ -22,6 +22,8 @@ Genesis event happened at 10:00 am UTC on APr/27, 2020.
 [![Genesis Recording](.res/genesis-v011.png)](https://asciinema.org/a/324317)
 
 Known issues:
+- [ ] Teku: [Unexpected exception thrown for java.lang.NullPointerException #1713](https://github.com/PegaSysEng/teku/issues/1713)
+- [ ] Teku: [RuntimeException: ProtoArray: Best node is not viable for head #1712](https://github.com/PegaSysEng/teku/issues/1712)
 - [ ] Prysm: [ERROR sync: Failed to handle p2p pubsub error=attestation is not aggregated #5649](https://github.com/prysmaticlabs/prysm/issues/5649)
 - [x] Lighthouse: [thread 'tokio-runtime-worker-7' panicked at 'elapsed=7481664; when=7481664' #1067](https://github.com/sigp/lighthouse/issues/1067)
 - [x] Lighthouse: [No valid eth1_data votes, `votes_to_consider` empty, outcome: casting `state.eth1_data` as eth1 vote #1066](https://github.com/sigp/lighthouse/issues/1066)
