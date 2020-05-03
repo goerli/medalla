@@ -1,5 +1,16 @@
-# Schlesi ETH 2.0 Testnet
+# Schlesi ETH 2.0 Testnet 
+![cortex](https://img.shields.io/badge/cortex-n%2Fa-inactive)
+![lighthouse](https://img.shields.io/badge/lighthouse-active-success)
+![lodestar](https://img.shields.io/badge/lodestar-n%2Fa-inactive)
+![nimbus](https://img.shields.io/badge/nimbus-in--progress-yellow)
+![prysm](https://img.shields.io/badge/prysm-active-success)
+![teku](https://img.shields.io/badge/teku-in--progress-yellow)
+![trinity](https://img.shields.io/badge/trinity-n%2Fa-inactive)
+
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
+
+[![discord](https://img.shields.io/badge/discord-%23testnets-black)](https://discord.gg/GZaBW5z)
+[![gitter](https://img.shields.io/badge/gitter-schlesi-black)](https://gitter.im/goerli/schlesi)
 
 _This is work in progress._
 - Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
@@ -13,9 +24,9 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Cortex
 - [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
 - [ ] Lodestar
-- [ ] Nimbus
+- [ ] Nimbus (_WIP_)
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
-- [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md)
+- [ ] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md) (_WIP_)
 - [ ] Trinity
 
 Genesis event happened at 10:00 am UTC on APr/27, 2020.
