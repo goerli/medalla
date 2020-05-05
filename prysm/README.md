@@ -1,12 +1,10 @@
 # Prysm Config for Schlesi v0.11
-
-This document describes how to connect to and participate in the Schlesi testnet using the Prysm ETH2 client. https://github.com/prysmaticlabs/prysm/
+This document describes how to connect to and participate in the Schlesi testnet using the Prysm ETH2 client. [github.com/prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm/)
 
 ### Requirements
+This requires Bazel, get it here: [bazel.build](https://bazel.build/)
 
-This requires Bazel, get it here: https://bazel.build/
-
-_Note:_ Bazel will manage the build and dependencies, for other options, please refer to the Prysm documentation.
+_Note:_ Bazel will manage the build and dependencies, for other options, please refer to the Prysm documentation. [prysmaticlabs.gitbook.io/prysm](https://prysmaticlabs.gitbook.io/prysm/)
 
 To connect to Schlesi v0.11, you would have to compile Prysm from `v0.12` branch. _Right_ --- `v0.12` contains a patch that is necessary for the v0.11 spec. Let's not get confused about the versioning here. :)
 
@@ -68,4 +66,4 @@ bazel run //validator -- \
 --graffiti "OMG THANKS SCHLESI\!"
 ```
 
-Please create an issue if this does not work. We will figure it out: https://github.com/goerli/schlesi/issues/new
+Please create an issue if this does not work. We will figure it out: [github.com/goerli/schlesi/issues/new](https://github.com/goerli/schlesi/issues/new)

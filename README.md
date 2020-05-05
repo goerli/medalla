@@ -57,18 +57,20 @@ Before such a mainnet can be launched, we need testnets that mimic mainnet condi
 
 The Schlesi testnet is one of many steps in that direction.
 
-##### Is _Schlesi_ an incentivized adversarial network?
-No. The Schlesi testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) on the _Goerli_ Ethereum testnet and start validating on Schlesi.
+##### What's the difference between Schlesi and _Topaz_?
+The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet launched by the Prysmatic Labs team. It's entirely comprised of prysm validators.
 
-##### What's the difference between Schlesi and _Interop_?
-The [ETH 2.0 Interop Lock-In](https://blog.ethereum.org/2019/09/19/eth2-interop-in-review/) was a physical meetup of seven client teams working towards interoperability in 2019. This was the first major step towards multi-client testnets, even though the focus of the lock-in was mainly on networking. Other aspects of interoperability were playing minor roles.
-
-For Schlesi, _all_ aspects are important, as they would be important for a potential mainnet candidate.
+Schlesi, on the other side, tries to have as many different clients right from the start. The Schlesi genesis contained 50% Lighthouse and 50% Prysm validators. Other clients joined the network since. It's a multi-client testnet.
 
 ##### What's the difference between Schlesi and _Multinet_?
 The [ETH 2.0 Multinet](https://github.com/eth2-clients/multinet) is a collection of startup scripts to simulate multi-client testnets with various parameters such as number of validators to run the network with. The multinet is based on a minimal ETH 2.0 specification.
 
 Schlesi, however, is _not_ a simulation. It's a real persistent end-user testnet based on a slightly modified mainnet configuration. Everyone should be able to add validators and beacon chain nodes.
+
+##### What's the difference between Schlesi and _Interop_?
+The [ETH 2.0 Interop Lock-In](https://blog.ethereum.org/2019/09/19/eth2-interop-in-review/) was a physical meetup of seven client teams working towards interoperability in 2019. This was the first major step towards multi-client testnets, even though the focus of the lock-in was mainly on networking. Other aspects of interoperability were playing minor roles.
+
+For Schlesi, _all_ aspects are important, as they would be important for a potential mainnet candidate.
 
 ##### Why does Schlesi use the _Mainnet_ configuration?
 The ultimate goal of Schlesi should be proving that the clients are ready to support a potential beacon-chain mainnet. Therefore, it is time to template the testnet as close as possible to mainnet.
@@ -77,6 +79,9 @@ The ultimate goal of Schlesi should be proving that the clients are ready to sup
 The focus of the testnet is no longer developer but end-user centric. Each user of the beacon chain should be able to manually complete any task, i.e., setting up a validator or synchronizing a beacon chain node. Scripts will be convenient in future to ease this process but for now we need to ensure that nodes, clients, and other tooling is ready to be used sufficiently to complete all tasks required by a beacon chain mainnet.
 
 Additionally, not having a script that does the job for you, ensures that all node implementations and their according tooling are well documented across the different clients.
+
+##### Is _Schlesi_ an incentivized adversarial network?
+No. The Schlesi testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) on the _Goerli_ Ethereum testnet and start validating on Schlesi.
 
 ##### Why do you call it _Schlesi_?
 Schlesi (Schlesisches Tor) is a subway station in Berlin with proximity to _Goerli_ and _Full Node_.
