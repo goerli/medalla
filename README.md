@@ -9,8 +9,8 @@
 
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
 
-[![discord](https://img.shields.io/badge/discord-eth2%23schlesi-black)](https://discord.gg/P5TRzdb)
-[![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-black)](https://gitter.im/goerli/schlesi)
+[![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
+[![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 _This is work in progress._
 - Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
