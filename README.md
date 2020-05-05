@@ -36,7 +36,7 @@ Known issues:
 - [ ] Teku: [Unexpected exception thrown for java.lang.NullPointerException #1713](https://github.com/PegaSysEng/teku/issues/1713)
 - [ ] Teku: [RuntimeException: ProtoArray: Best node is not viable for head #1712](https://github.com/PegaSysEng/teku/issues/1712)
 - [ ] Prysm: [ERROR sync: Failed to handle p2p pubsub error=attestation is not aggregated #5649](https://github.com/prysmaticlabs/prysm/issues/5649)
-- [x] Lighthouse: [thread 'tokio-runtime-worker-7' panicked at 'elapsed=7481664; when=7481664' #1067](https://github.com/sigp/lighthouse/issues/1067)
+- [ ] Lighthouse: [thread 'tokio-runtime-worker-7' panicked at 'elapsed=7481664; when=7481664' #1067](https://github.com/sigp/lighthouse/issues/1067)
 - [x] Lighthouse: [No valid eth1_data votes, `votes_to_consider` empty, outcome: casting `state.eth1_data` as eth1 vote #1066](https://github.com/sigp/lighthouse/issues/1066)
 - [x] Spec: [clarify that eth1 timestamp can be less than min genesis time #1756](https://github.com/ethereum/eth2.0-specs/pull/1756)
 - [x] Ligthhouse: [Eth1 genesis time is incorrect #1051](https://github.com/sigp/lighthouse/issues/1051)
@@ -58,7 +58,7 @@ Before such a mainnet can be launched, we need testnets that mimic mainnet condi
 The Schlesi testnet is one of many steps in that direction.
 
 ##### What's the difference between Schlesi and _Topaz_?
-The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet launched by the Prysmatic Labs team. It's entirely comprised of prysm validators.
+The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet launched by the Prysmatic Labs team. It's entirely comprised of Prysm validators.
 
 Schlesi, on the other side, tries to have as many different clients right from the start. The Schlesi genesis contained 50% Lighthouse and 50% Prysm validators. Other clients joined the network since. It's a multi-client testnet.
 
