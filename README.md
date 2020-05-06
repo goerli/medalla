@@ -16,7 +16,9 @@ _This is work in progress._
 - Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
 - Current ETH 2.0 specification version support:
   - [x] ~~v0.10.1~~ (retired & moved to `.trash/`)
-  - [x] v0.11.1 **Chain Explorer:** https://schlesi.beaconcha.in/
+  - [x] v0.11.1 
+      - Chain Explorer: [schlesi.beaconcha.in](https://schlesi.beaconcha.in/)
+      - Status Dashboard: [eth2stats.io/schlesi-testnet](https://eth2stats.io/schlesi-testnet)
   - [ ] v0.12.x
 
 ### `v0.11.1`
