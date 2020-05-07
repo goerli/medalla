@@ -17,23 +17,12 @@ cargo build --release
 ```
 
 ### Beacon Node
-It's assumed you have a local copy of the Schlesi repository.
-
-```
-git clone https://github.com/goerli/schlesi.git
-cd schlesi/
-```
-
-Run a previously compiled beacon node:
-
-```
-lighthouse bn --testnet-dir ./light
-```
+If you have the latest `master` of Lighthouse, the beacon node will default to Schlesi testnet. No further configuration required!
 
 If you plan to run a validator on Schlesi, enable the Rest API with ` --http`:
 
 ```
-lighthouse bn --testnet-dir ./light --http
+lighthouse bn --http
 ```
 
 ### Validator Deposits
@@ -43,7 +32,6 @@ Assuming you have a Goerli node running on localhost with RPC enabled on port `8
 
 ```
 lighthouse account validator new \
---testnet-dir ./light \
 --send-deposits \
 --password ./password.txt \
 --deposit-value 32000000000 random
@@ -57,7 +45,7 @@ It's recommended to use a Geth node as ETH1 provider.
 To start validating, open another terminal and launch the validator client:
 
 ```
-lighthouse vc --testnet-dir ./light
+lighthouse vc
 ```
 
 Please create an issue if this does not work. We will figure it out: [github.com/goerli/schlesi/issues/new](https://github.com/goerli/schlesi/issues/new)
