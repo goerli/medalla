@@ -4,7 +4,7 @@
 ![lodestar](https://img.shields.io/badge/lodestar-n%2Fa-inactive)
 ![nimbus](https://img.shields.io/badge/nimbus-in--progress-yellow)
 ![prysm](https://img.shields.io/badge/prysm-active-success)
-![teku](https://img.shields.io/badge/teku-in--progress-yellow)
+![teku](https://img.shields.io/badge/teku-synced-green)
 ![trinity](https://img.shields.io/badge/trinity-n%2Fa-inactive)
 
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
@@ -28,7 +28,7 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Lodestar
 - [ ] Nimbus (_WIP_)
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
-- [ ] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md) (_WIP_)
+- [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md) (_WIP_)
 - [ ] Trinity
 
 Genesis event happened at 10:00 am UTC on APr/27, 2020.
