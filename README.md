@@ -26,7 +26,7 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Cortex
 - [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
 - [ ] Lodestar
-- [ ] Nimbus (_WIP_)
+- [ ] Nimbus [config: `nimbus/`](nimbus/), [docs: `nimbus/README.md`](nimbus/README.md) (_WIP_)
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
 - [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md) (_WIP_)
 - [ ] Trinity
@@ -35,6 +35,7 @@ Genesis event happened at 10:00 am UTC on APr/27, 2020.
 [![Genesis Recording](.res/genesis-v011.png)](https://asciinema.org/a/324317)
 
 Known issues:
+- [ ] Nimbus: [Peering issues with Prysm / Schlesi sync stuck #989](https://github.com/status-im/nim-beacon-chain/issues/989)
 - [ ] Prysm: [ERROR sync: Failed to set stream deadline error=stream closed #5763](https://github.com/prysmaticlabs/prysm/issues/5763)
 - [x] Lighthouse: [thread 'tokio-runtime-worker-11' panicked at 'supplied instant is later than self' #1106](https://github.com/sigp/lighthouse/issues/1106)
 - [ ] Teku: [Unexpected exception thrown for java.lang.NullPointerException #1713](https://github.com/PegaSysEng/teku/issues/1713)
