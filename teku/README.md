@@ -1,8 +1,6 @@
 # Teku Config for Schlesi v0.11
 This document describes how to connect to and participate in the Schlesi testnet using the Teku ETH2 client. https://github.com/PegaSysEng/teku
 
-_This is work in progress._
-
 ### Requirements
 This requires Java 11+ and Gradle, get it here: https://gradle.org/
 
@@ -26,7 +24,7 @@ cd schlesi/
 Run a previously compiled teku node:
 
 ```
-teku --config-file ./teku/config.yaml --network ./teku/chain.yaml --initial-state ./teku/genesis.ssz
+teku --config-file ./teku/config.yaml --network schlesi
 ```
 
 ### Validator Client
