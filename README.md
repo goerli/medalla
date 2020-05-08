@@ -1,7 +1,7 @@
 # Schlesi ETH 2.0 Testnet 
 ![cortex](https://img.shields.io/badge/cortex-n%2Fa-inactive)
 ![lighthouse](https://img.shields.io/badge/lighthouse-active-success)
-![lodestar](https://img.shields.io/badge/lodestar-n%2Fa-inactive)
+![lodestar](https://img.shields.io/badge/lodestar-in--progress-yellow)
 ![nimbus](https://img.shields.io/badge/nimbus-in--progress-yellow)
 ![prysm](https://img.shields.io/badge/prysm-active-success)
 ![teku](https://img.shields.io/badge/teku-synced-green)
@@ -13,28 +13,37 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 _This is work in progress._
-- Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
-- Current ETH 2.0 specification version support:
-  - [x] ~~v0.10.1~~ (retired & moved to `.trash/`)
-  - [x] v0.11.1 
-      - Chain Explorer: [schlesi.beaconcha.in](https://schlesi.beaconcha.in/)
-      - Status Dashboard: [eth2stats.io/schlesi-testnet](https://eth2stats.io/schlesi-testnet)
-  - [ ] v0.12.x
 
-### `v0.11.1`
-This repository contains the client configuration files and genesis state for the `v0.11.1` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
+Current ETH 2.0 specification version support:
+- [x] ~~v0.10.1~~ (retired & moved to `.trash/`)
+- [x] v0.11.2
+  - Fork Digest: `9925efd6`
+  - Genesis Root: `c9cbcb8ceb9b5f71216f5137282bf6a1e3b50f64e42d6c7fb347abe07eb0db82`
+  - Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
+  - Chain Explorer: [schlesi.beaconcha.in](https://schlesi.beaconcha.in/)
+  - Status Dashboard: [eth2stats.io/schlesi-testnet](https://eth2stats.io/schlesi-testnet)
+- [ ] v0.12.x
+
+
+### `v0.11.2`
+This repository contains the client configuration files and genesis state for the `v0.11.2` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
 - [ ] Cortex
 - [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
-- [ ] Lodestar
+- [ ] Lodestar _(WIP)_
 - [ ] Nimbus [config: `nimbus/`](nimbus/), [docs: `nimbus/README.md`](nimbus/README.md) (_WIP_)
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
 - [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md) (_WIP_)
 - [ ] Trinity
 
-Genesis event happened at 10:00 am UTC on APr/27, 2020.
+Genesis event happened at 10:00 am UTC on Apr/27, 2020.
 [![Genesis Recording](.res/genesis-v011.png)](https://asciinema.org/a/324317)
 
+Syncing three clients on the Schlesi Testnet.
+[![Three Clients](.res/clients-v011.png)](https://asciinema.org/a/327530)
+
 Known issues:
+- [ ] Teku: [Block sync silently stalls on Schlesi #1740](https://github.com/PegaSysEng/teku/issues/1740)
+- [x] Lodestar: [Fix status request head root computation #897](https://github.com/ChainSafe/lodestar/pull/897)
 - [ ] Nimbus: [Peering issues with Prysm / Schlesi sync stuck #989](https://github.com/status-im/nim-beacon-chain/issues/989)
 - [ ] Prysm: [ERROR sync: Failed to set stream deadline error=stream closed #5763](https://github.com/prysmaticlabs/prysm/issues/5763)
 - [x] Lighthouse: [thread 'tokio-runtime-worker-11' panicked at 'supplied instant is later than self' #1106](https://github.com/sigp/lighthouse/issues/1106)
@@ -96,6 +105,7 @@ Goerli is a cross-client proof-of-authority [Ethereum 1.x testnet](https://githu
 
 ### See also
 In the news:
+- [Schlesi Testnet Is Latest Step in Long Road Toward Eth 2.0](https://www.coindesk.com/ethereum-schlesi-testnet-eth-2-0)
 - [Ethereum 2.0 Specter Grows with Launch of “Schlesi” Multi-Client Testnet](https://blockonomi.com/ethereum-2-launch-schlesi-multi-client-testnet/)
 - [Ethereum 2.0's Phase 0 multiclient testnets will likely go live in April](https://www.theblockcrypto.com/post/60292/ethereum-2-0s-phase-0-multiclient-testnets-will-likely-go-live-in-april-predicts-buterin)
 
