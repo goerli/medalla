@@ -4,7 +4,7 @@
 ![lodestar](https://img.shields.io/badge/lodestar-in--progress-yellow)
 ![nimbus](https://img.shields.io/badge/nimbus-in--progress-yellow)
 ![prysm](https://img.shields.io/badge/prysm-active-success)
-![teku](https://img.shields.io/badge/teku-synced-green)
+![teku](https://img.shields.io/badge/teku-active-success)
 ![trinity](https://img.shields.io/badge/trinity-n%2Fa-inactive)
 
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
@@ -42,15 +42,15 @@ Syncing three clients on the Schlesi Testnet.
 [![Three Clients](.res/clients-v011.png)](https://asciinema.org/a/327530)
 
 Known issues:
-- [ ] Teku: [Block sync silently stalls on Schlesi #1740](https://github.com/PegaSysEng/teku/issues/1740)
+- [x] Teku: [Block sync silently stalls on Schlesi #1740](https://github.com/PegaSysEng/teku/issues/1740)
 - [x] Lodestar: [Fix status request head root computation #897](https://github.com/ChainSafe/lodestar/pull/897)
 - [ ] Nimbus: [Peering issues with Prysm / Schlesi sync stuck #989](https://github.com/status-im/nim-beacon-chain/issues/989)
 - [ ] Prysm: [ERROR sync: Failed to set stream deadline error=stream closed #5763](https://github.com/prysmaticlabs/prysm/issues/5763)
 - [x] Lighthouse: [thread 'tokio-runtime-worker-11' panicked at 'supplied instant is later than self' #1106](https://github.com/sigp/lighthouse/issues/1106)
-- [ ] Teku: [Unexpected exception thrown for java.lang.NullPointerException #1713](https://github.com/PegaSysEng/teku/issues/1713)
+- [x] Teku: [Unexpected exception thrown for java.lang.NullPointerException #1713](https://github.com/PegaSysEng/teku/issues/1713)
 - [x] Teku: [RuntimeException: ProtoArray: Best node is not viable for head #1712](https://github.com/PegaSysEng/teku/issues/1712)
 - [ ] Prysm: [ERROR sync: Failed to handle p2p pubsub error=attestation is not aggregated #5649](https://github.com/prysmaticlabs/prysm/issues/5649)
-- [ ] Lighthouse: [thread 'tokio-runtime-worker-7' panicked at 'elapsed=7481664; when=7481664' #1067](https://github.com/sigp/lighthouse/issues/1067)
+- [x] Lighthouse: [thread 'tokio-runtime-worker-7' panicked at 'elapsed=7481664; when=7481664' #1067](https://github.com/sigp/lighthouse/issues/1067)
 - [x] Lighthouse: [No valid eth1_data votes, `votes_to_consider` empty, outcome: casting `state.eth1_data` as eth1 vote #1066](https://github.com/sigp/lighthouse/issues/1066)
 - [x] Spec: [clarify that eth1 timestamp can be less than min genesis time #1756](https://github.com/ethereum/eth2.0-specs/pull/1756)
 - [x] Ligthhouse: [Eth1 genesis time is incorrect #1051](https://github.com/sigp/lighthouse/issues/1051)
