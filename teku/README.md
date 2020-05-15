@@ -30,6 +30,8 @@ teku --config-file ./teku/config.yaml --network schlesi
 ### Validator Client
 _@TODO document this_
 
+See also: https://docs.google.com/document/d/1BP6B5muGjLGXVD1EOtorvlSBVzb5XR4OsYwBSTjiiDU/edit
+
 _This is work in progress._
 
 Please create an issue if this does not work. We will figure it out: https://github.com/goerli/schlesi/issues/new
