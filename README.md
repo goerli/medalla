@@ -16,16 +16,29 @@ _This is work in progress._
 
 Current ETH 2.0 specification version support:
 - [x] ~~v0.10.1~~ (retired & moved to `.trash/`)
-- [x] v0.11.2
+- [x] v0.11.2 "Schlesi"
   - Fork Digest: `9925efd6`
   - Genesis Root: `c9cbcb8ceb9b5f71216f5137282bf6a1e3b50f64e42d6c7fb347abe07eb0db82`
   - Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
   - Chain Explorer: [schlesi.beaconcha.in](https://schlesi.beaconcha.in/)
   - Status Dashboard: [eth2stats.io/schlesi-testnet](https://eth2stats.io/schlesi-testnet)
+- [ ] v0.11.2 "Witti"
 - [ ] v0.12.x
 
 
-### `v0.11.2`
+### `v0.11.2` "Witti"
+This repository contains the client configuration files and genesis state for the `v0.11.2` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
+- [ ] Cortex
+- [ ] Lighthouse
+- [ ] Lodestar
+- [ ] Nimbus
+- [ ] Prysm
+- [ ] Teku
+- [ ] Trinity
+
+Clients will be added one by one once they manage to connect, synchronize, and stay in consensus. _Work in progress._
+
+### `v0.11.2` "Schlesi"
 This repository contains the client configuration files and genesis state for the `v0.11.2` Ethereum 2.0 specification multi-client testnet _"Schlesi v0.11"_ for the following clients:
 - [ ] Cortex
 - [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
@@ -62,7 +75,7 @@ Known issues:
 - [x] Prysm: [Failed to handle p2p RPC error=rate limited #5587](https://github.com/prysmaticlabs/prysm/issues/5587)
 - [x] Lighthouse: [Beacon Node: Unable to recover from network fragmentation #949](https://github.com/sigp/lighthouse/issues/949)
 
-Clients will be added one by one once they manage to connect, synchronize, and stay in consensus. _Work in progress._
+Schlesi had multiple severe consensus issues and will no longer be maintained. It will be kept around for debugging purposes. New clients will be added to the Witti testnet (see above).
 
 ### F.A.Q.
 _I'm wondering why ..._
