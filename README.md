@@ -22,11 +22,11 @@ Current ETH 2.0 specification version support:
   - Deposit contract: [`0xA15554BF93a052669B511ae29EA21f3581677ac5`](https://goerli.etherscan.io/address/0xA15554BF93a052669B511ae29EA21f3581677ac5) ([Goerli Testnet](https://github.com/goerli/testnet))
   - Chain Explorer: [schlesi.beaconcha.in](https://schlesi.beaconcha.in/)
   - Status Dashboard: [eth2stats.io/schlesi-testnet](https://eth2stats.io/schlesi-testnet)
-- [ ] v0.11.2 "Witti"
+- [ ] v0.11.3 "Witti"
 - [ ] v0.12.x
 
 
-### `v0.11.2` "Witti"
+### `v0.11.3` "Witti"
 This repository contains the client configuration files and genesis state for the `v0.11.2` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
 - [ ] Cortex
 - [ ] Lighthouse
