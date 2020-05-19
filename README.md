@@ -42,6 +42,9 @@ Syncing three clients on the Schlesi Testnet.
 [![Three Clients](.res/clients-v011.png)](https://asciinema.org/a/327530)
 
 Known issues:
+- [x] Lighthouse: [Schlesi-splitting penalty bug #1166](https://github.com/sigp/lighthouse/pull/1166)
+- [ ] Prysm: [Check if validator was slashed before apply proposer reward #5901](https://github.com/prysmaticlabs/prysm/issues/5901)
+- [ ] Prysm: [Check if validator was slashed before apply inactivity penalty #5897](https://github.com/prysmaticlabs/prysm/issues/5897)
 - [x] Teku: [Block sync silently stalls on Schlesi #1740](https://github.com/PegaSysEng/teku/issues/1740)
 - [x] Lodestar: [Fix status request head root computation #897](https://github.com/ChainSafe/lodestar/pull/897)
 - [ ] Nimbus: [Peering issues with Prysm / Schlesi sync stuck #989](https://github.com/status-im/nim-beacon-chain/issues/989)
