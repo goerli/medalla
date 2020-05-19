@@ -1,0 +1,91 @@
+network: "./chain.yaml"
+### initial-state: "./genesis.ssz"
+Xinterop-enabled: true
+Xinterop-genesis-time: 1589900000
+
+eth1-deposit-contract-address: "0x6225f431644Ecf8A30b672D42b77c28297542b13"
+eth1-enabled: true
+eth1-endpoint: "http://127.0.0.1:8545"
+
+logging: "INFO"
+log-color-enabled: true
+log-include-events-enabled: true
+
+p2p-port: 30000
+p2p-advertised-port: 30000
+p2p-enabled: true
+p2p-discovery-enabled: true
+p2p-snappy-enabled: true
+### p2p-discovery-bootnodes: []
+
+rest-api-port: 5051
+rest-api-enabled: True
+rest-api-interface: "127.0.0.1"
+
+validators-key-files:
+  - "/home/user/.local/share/teku/keystore/validator_8008fad/validator_8008fad.json"
+  - "/home/user/.local/share/teku/keystore/validator_80b4d3b/validator_80b4d3b.json"
+  - "/home/user/.local/share/teku/keystore/validator_819a911/validator_819a911.json"
+  - "/home/user/.local/share/teku/keystore/validator_8254186/validator_8254186.json"
+  - "/home/user/.local/share/teku/keystore/validator_8834c81/validator_8834c81.json"
+  - "/home/user/.local/share/teku/keystore/validator_8ba2203/validator_8ba2203.json"
+  - "/home/user/.local/share/teku/keystore/validator_8dc1e49/validator_8dc1e49.json"
+  - "/home/user/.local/share/teku/keystore/validator_8e554fb/validator_8e554fb.json"
+  - "/home/user/.local/share/teku/keystore/validator_92d78be/validator_92d78be.json"
+  - "/home/user/.local/share/teku/keystore/validator_94a428f/validator_94a428f.json"
+  - "/home/user/.local/share/teku/keystore/validator_953a3cc/validator_953a3cc.json"
+  - "/home/user/.local/share/teku/keystore/validator_956a50d/validator_956a50d.json"
+  - "/home/user/.local/share/teku/keystore/validator_97d14d2/validator_97d14d2.json"
+  - "/home/user/.local/share/teku/keystore/validator_97f71f8/validator_97f71f8.json"
+  - "/home/user/.local/share/teku/keystore/validator_97fdfa5/validator_97fdfa5.json"
+  - "/home/user/.local/share/teku/keystore/validator_a0dcd2e/validator_a0dcd2e.json"
+  - "/home/user/.local/share/teku/keystore/validator_a2a0a7a/validator_a2a0a7a.json"
+  - "/home/user/.local/share/teku/keystore/validator_a47fb8c/validator_a47fb8c.json"
+  - "/home/user/.local/share/teku/keystore/validator_a7fd8ca/validator_a7fd8ca.json"
+  - "/home/user/.local/share/teku/keystore/validator_aa30f31/validator_aa30f31.json"
+  - "/home/user/.local/share/teku/keystore/validator_aa8b38b/validator_aa8b38b.json"
+  - "/home/user/.local/share/teku/keystore/validator_ab9d41b/validator_ab9d41b.json"
+  - "/home/user/.local/share/teku/keystore/validator_ac176f2/validator_ac176f2.json"
+  - "/home/user/.local/share/teku/keystore/validator_aec9cb2/validator_aec9cb2.json"
+  - "/home/user/.local/share/teku/keystore/validator_af44055/validator_af44055.json"
+  - "/home/user/.local/share/teku/keystore/validator_b2d3b4c/validator_b2d3b4c.json"
+  - "/home/user/.local/share/teku/keystore/validator_b33041f/validator_b33041f.json"
+  - "/home/user/.local/share/teku/keystore/validator_b3633fe/validator_b3633fe.json"
+  - "/home/user/.local/share/teku/keystore/validator_b563dbd/validator_b563dbd.json"
+  - "/home/user/.local/share/teku/keystore/validator_b725554/validator_b725554.json"
+  - "/home/user/.local/share/teku/keystore/validator_b751df7/validator_b751df7.json"
+  - "/home/user/.local/share/teku/keystore/validator_b756f40/validator_b756f40.json"
+
+validators-key-password-files:
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
+  - "/home/user/.opt/goerli/witti/password.txt"
