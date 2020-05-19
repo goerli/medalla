@@ -86,7 +86,7 @@ No. The Witti testnet is not incentivized. The current goal is to ensure protoco
 ##### Why do you call it _Witti_?
 Witti (Wittenbergplatz) is a subway station in Berlin proposed by MP. It's the first testnet named by a subway station in Berlin that is not located in the district of Kreuzberg were many blockchain companies, including the ETH DEV, have their offices.
 
-##### Why did you call it Schlesi _Schlesi_?
+##### Why did you call Schlesi _Schlesi_?
 Schlesi (Schlesisches Tor) is a subway station in Berlin with proximity to _Goerli_ and _ETH DEV_ offices.
 
 ##### What is the _Goerli_ testnet?
