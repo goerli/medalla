@@ -1,4 +1,4 @@
-# Schlesi ETH 2.0 Testnet 
+# Schlesi ETH 2.0 Testnet
 ![cortex](https://img.shields.io/badge/cortex-n%2Fa-inactive)
 ![lighthouse](https://img.shields.io/badge/lighthouse-active-success)
 ![lodestar](https://img.shields.io/badge/lodestar-in--progress-yellow)
