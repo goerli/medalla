@@ -48,9 +48,10 @@ SECONDS_PER_ETH1_BLOCK: 14
 
 # Deposit contract
 # ---------------------------------------------------------------
-# **TBD**
-DEPOSIT_CONTRACT_ADDRESS: 0x1234567890123456789012345678901234567890
-DEPOSIT_CONTRACT_BLOCK: 0x0
+# https://goerli.etherscan.io/address/0x6225f431644Ecf8A30b672D42b77c28297542b13
+DEPOSIT_CONTRACT_ADDRESS: 0x6225f431644Ecf8A30b672D42b77c28297542b13
+# https://goerli.etherscan.io/block/2723358
+DEPOSIT_CONTRACT_BLOCK: 0x298e1e
 
 # Gwei values
 # ---------------------------------------------------------------
