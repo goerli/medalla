@@ -7,7 +7,7 @@ lcli --spec mainnet new-testnet \
 --genesis-fork-version 0x00000113 \
 --min-genesis-active-validator-count 96 \
 --min-genesis-delay 3600 \
---min-genesis-time 1589900000 \
+--min-genesis-time 1589965200 \
 --testnet-dir ~/.opt/goerli/witti/lighthouse
 ```
 

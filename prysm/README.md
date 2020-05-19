@@ -7,7 +7,7 @@ bazel run //beacon-chain -- \
 --contract-deployment-block 2723358 \
 --deposit-contract "0x6225f431644ecf8a30b672d42b77c28297542b13" \
 --custom-genesis-delay 3600 \
---interop-genesis-time 1589900000 \
+--interop-genesis-time 1589965200 \
 --http-web3provider http://127.0.0.1:8545 \
 --web3provider ws://127.0.0.1:8546 \
 --min-sync-peers 0 \

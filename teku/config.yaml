@@ -1,7 +1,7 @@
 network: "./chain.yaml"
 ### initial-state: "./genesis.ssz"
 Xinterop-enabled: true
-Xinterop-genesis-time: 1589900000
+Xinterop-genesis-time: 1589965200
 
 eth1-deposit-contract-address: "0x6225f431644Ecf8A30b672D42b77c28297542b13"
 eth1-enabled: true
