@@ -25,12 +25,10 @@ HYSTERESIS_DOWNWARD_MULTIPLIER: 1
 # 5 (plus 1.25)
 HYSTERESIS_UPWARD_MULTIPLIER: 5
 
-
 # Fork Choice
 # ---------------------------------------------------------------
 # 2**3 (= 8)
 SAFE_SLOTS_TO_UPDATE_JUSTIFIED: 8
-
 
 # Validator
 # ---------------------------------------------------------------
@@ -44,7 +42,6 @@ RANDOM_SUBNETS_PER_VALIDATOR: 1
 EPOCHS_PER_RANDOM_SUBNET_SUBSCRIPTION: 256
 # 14 (estimate from Eth1 mainnet)
 SECONDS_PER_ETH1_BLOCK: 14
-
 
 # Deposit contract
 # ---------------------------------------------------------------
@@ -64,13 +61,11 @@ EJECTION_BALANCE: 16000000000
 # 2**0 * 10**9 (= 1,000,000,000) Gwei
 EFFECTIVE_BALANCE_INCREMENT: 1000000000
 
-
 # Initial values
 # ---------------------------------------------------------------
 # Witti initial fork version `275`
 GENESIS_FORK_VERSION: 0x00000113
 BLS_WITHDRAWAL_PREFIX: 0x03
-
 
 # Time parameters
 # ---------------------------------------------------------------
@@ -99,7 +94,6 @@ MAX_EPOCHS_PER_CROSSLINK: 64
 # 2**2 (= 4) epochs 25.6 minutes
 MIN_EPOCHS_TO_INACTIVITY_PENALTY: 4
 
-
 # State vector lengths
 # ---------------------------------------------------------------
 # 2**16 (= 65,536) epochs ~0.8 years
@@ -110,7 +104,6 @@ EPOCHS_PER_SLASHINGS_VECTOR: 8192
 HISTORICAL_ROOTS_LIMIT: 16777216
 # 2**40 (= 1,099,511,627,776) validator spots
 VALIDATOR_REGISTRY_LIMIT: 1099511627776
-
 
 # Reward and penalty quotients
 # ---------------------------------------------------------------
@@ -125,7 +118,6 @@ INACTIVITY_PENALTY_QUOTIENT: 33554432
 # 2**5 (= 32)
 MIN_SLASHING_PENALTY_QUOTIENT: 32
 
-
 # Max operations per block
 # ---------------------------------------------------------------
 # 2**4 (= 16)
@@ -139,7 +131,6 @@ MAX_DEPOSITS: 16
 # 2**4 (= 16)
 MAX_VOLUNTARY_EXITS: 16
 
-
 # Signature domains
 # ---------------------------------------------------------------
 DOMAIN_BEACON_PROPOSER: 0x00000000
@@ -149,72 +140,3 @@ DOMAIN_DEPOSIT: 0x03000000
 DOMAIN_VOLUNTARY_EXIT: 0x04000000
 DOMAIN_SELECTION_PROOF: 0x05000000
 DOMAIN_AGGREGATE_AND_PROOF: 0x06000000
-# Phase 1
-DOMAIN_SHARD_PROPOSAL: 0x80000000
-DOMAIN_SHARD_COMMITTEE: 0x81000000
-DOMAIN_LIGHT_CLIENT: 0x82000000
-DOMAIN_CUSTODY_BIT_SLASHING: 0x83000000
-
-
-# Phase 1: Upgrade from Phase 0
-# ---------------------------------------------------------------
-PHASE_1_FORK_VERSION: 0x01000000
-# [STUB]
-PHASE_1_GENESIS_SLOT: 32
-INITIAL_ACTIVE_SHARDS: 64
-
-# Phase 1: General
-# ---------------------------------------------------------------
-# 2**10` (= 1024)
-MAX_SHARDS: 1024
-# 2**3 (= 8) | online epochs | ~51 min
-ONLINE_PERIOD: 8
-# 2**7 (= 128)
-LIGHT_CLIENT_COMMITTEE_SIZE: 128
-# 2**8 (= 256) | epochs | ~27 hours
-LIGHT_CLIENT_COMMITTEE_PERIOD: 256
-# 2**8 (= 256) | epochs | ~27 hours
-SHARD_COMMITTEE_PERIOD: 256
-# 2**18 (= 262,144)
-SHARD_BLOCK_CHUNK_SIZE: 262144
-# 2**2 (= 4)
-MAX_SHARD_BLOCK_CHUNKS: 4
-# 3 * 2**16` (= 196,608)
-TARGET_SHARD_BLOCK_SIZE: 196608
-# Note: MAX_SHARD_BLOCKS_PER_ATTESTATION is derived from the list length.
-SHARD_BLOCK_OFFSETS: [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
-# len(SHARD_BLOCK_OFFSETS)
-MAX_SHARD_BLOCKS_PER_ATTESTATION: 12
-# 2**14 (= 16,384) Gwei
-MAX_GASPRICE: 16384
-# 2**3 (= 8) Gwei
-MIN_GASPRICE: 8
-#  2**3 (= 8)
-GASPRICE_ADJUSTMENT_COEFFICIENT: 8
-
-
-# Phase 1: Custody Game
-# ---------------------------------------------------------------
-
-# Time parameters
-# 2**1 (= 2) epochs, 12.8 minutes
-RANDAO_PENALTY_EPOCHS: 2
-# 2**14 (= 16,384) epochs ~73 days
-EARLY_DERIVED_SECRET_PENALTY_MAX_FUTURE_EPOCHS: 16384
-# 2**11 (= 2,048) epochs, ~9 days
-EPOCHS_PER_CUSTODY_PERIOD: 2048
-# 2**11 (= 2,048) epochs, ~9 days
-CUSTODY_PERIOD_TO_RANDAO_PADDING: 2048
-# 2**7 (= 128) epochs, ~14 hours
-MAX_REVEAL_LATENESS_DECREMENT: 128
-
-# Max operations
-# 2**8 (= 256)
-MAX_CUSTODY_KEY_REVEALS: 256
-MAX_EARLY_DERIVED_SECRET_REVEALS: 1
-MAX_CUSTODY_SLASHINGS: 1
-
-# Reward and penalty quotients
-EARLY_DERIVED_SECRET_REVEAL_SLOT_REWARD_MULTIPLE: 2
-# 2**8 (= 256)
-MINOR_REWARD_QUOTIENT: 256
