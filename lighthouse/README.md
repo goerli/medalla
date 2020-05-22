@@ -2,12 +2,12 @@ create testnet
 
 ```
 lcli --spec mainnet new-testnet \
---deposit-contract-address 6225f431644Ecf8A30b672D42b77c28297542b13 \
---deposit-contract-deploy-block 2723358 \
+--deposit-contract-address 9eED6A5741e3D071d70817beD551D0078e9a2706 \
+--deposit-contract-deploy-block 2740461 \
 --genesis-fork-version 0x00000113 \
---min-genesis-active-validator-count 96 \
+--min-genesis-active-validator-count 6 \
 --min-genesis-delay 3600 \
---min-genesis-time 1589965200 \
+--min-genesis-time 1590148800 \
 --testnet-dir ~/.opt/goerli/witti/lighthouse
 ```
 
@@ -44,7 +44,7 @@ make validator deposits
 ```
 lighthouse account_manager validator deposit \
 --eth1-ipc ~/.ethereum/goerli/geth.ipc \
---from-address 272dd1ff68461dfa848c9c30d8e2c3180a8f18de \
+--from-address 04f67c6fa446486d8da0a3534566bdc75ef67004 \
 --testnet-dir ~/.opt/goerli/witti/lighthouse \
 --validator all
 ```

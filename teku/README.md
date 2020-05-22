@@ -12,8 +12,8 @@ generate keypairs and make deposits
 teku validator generate \
 --network="/home/user/.opt/goerli/witti/teku/chain.yaml" \
 --eth1-endpoint="http://127.0.0.1:8545" \
---eth1-deposit-contract-address="0x6225f431644Ecf8A30b672D42b77c28297542b13" \
---eth1-keystore-file="/home/user/.ethereum/goerli/keystore/UTC--2020-01-18T11-33-11.045251948Z--272dd1ff68461dfa848c9c30d8e2c3180a8f18de" \
+--eth1-deposit-contract-address="0x9eED6A5741e3D071d70817beD551D0078e9a2706" \
+--eth1-keystore-file="/home/user/.ethereum/goerli/keystore/UTC--2020-04-23T06-29-02.894097316Z--04f67c6fa446486d8da0a3534566bdc75ef67004" \
 --eth1-keystore-password-file="/home/user/.opt/goerli/witti/password.txt" \
 --keys-output-path="/home/user/.local/share/teku/keystore" \
 --encrypted-keystore-validator-password-file="/home/user/.opt/goerli/witti/password.txt" \

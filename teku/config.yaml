@@ -1,7 +1,7 @@
 network: "./chain.yaml"
 ### initial-state: "./genesis.ssz"
 
-eth1-deposit-contract-address: "0x6225f431644Ecf8A30b672D42b77c28297542b13"
+eth1-deposit-contract-address: "0x9eED6A5741e3D071d70817beD551D0078e9a2706"
 eth1-enabled: true
 eth1-endpoint: "http://127.0.0.1:8545"
 
