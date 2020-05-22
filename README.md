@@ -28,17 +28,19 @@ Current ETH 2.0 specification version support:
   - Fork Digest: `0x0`
   - Genesis Root: `0x0`
   - Deposit Contract: [`0x9eED6A5741e3D071d70817beD551D0078e9a2706`](https://goerli.etherscan.io/address/0x9eED6A5741e3D071d70817beD551D0078e9a2706)
+  - Chain Explorer: N/A
+  - Status Dashboard: N/A
 - [ ] v0.12.x
 
 
 ### `v0.11.3` "Witti"
 This repository contains the client configuration files and genesis state for the `v0.11.3` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
 - [ ] Cortex
-- [ ] Lighthouse
-- [ ] Lodestar
-- [ ] Nimbus
-- [ ] Prysm
-- [ ] Teku
+- [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
+- [ ] Lodestar _(WIP)_
+- [ ] Nimbus _(WIP)_
+- [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
+- [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md)
 - [ ] Trinity
 
 Clients will be added one by one once they manage to connect, synchronize, and stay in consensus. _Work in progress._
@@ -46,8 +48,12 @@ Clients will be added one by one once they manage to connect, synchronize, and s
 ### `v0.11.2` "Schlesi"
 The `v0.11.2` _Schlesi_ testnet had multiple consensus issues and will no longer be maintained. It will be kept around for debugging purposes. New clients will be added to the _Witti_ testnet (see above).
 
+* See [schlesi/README.md](./.trash/schlesi/README.md)
+
 ### `v0.10.1`
 The `v0.10.1` testnet lost finality eventually and was retired in favor of the _Schlesi_ testnet (see above).
+
+* See [v0-10-1/README.md](./.trash/v0-10-1/README.md)
 
 ### F.A.Q.
 _I'm wondering why ..._
