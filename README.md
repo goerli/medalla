@@ -14,7 +14,8 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 [![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
-_This is work in progress._
+# _This is work in progress._
+![please don't use](.res/warning.png)
 
 Current ETH 2.0 specification version support:
 - [x] ~~v0.10.1~~ (retired & moved to `.trash/v0-10-1`)
@@ -34,6 +35,8 @@ Current ETH 2.0 specification version support:
 
 
 ### `v0.11.3` "Witti"
+![please don't use](.res/warning.png)
+
 This repository contains the client configuration files and genesis state for the `v0.11.3` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
 - [ ] Cortex
 - [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
@@ -44,6 +47,7 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Trinity
 
 Clients will be added one by one once they manage to connect, synchronize, and stay in consensus. _Work in progress._
+![please don't use](.res/warning.png)
 
 ### `v0.11.2` "Schlesi"
 The `v0.11.2` _Schlesi_ testnet had multiple consensus issues and will no longer be maintained. It will be kept around for debugging purposes. New clients will be added to the _Witti_ testnet (see above).
