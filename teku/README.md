@@ -1,34 +1,59 @@
-run teku on witti testnet
+# Teku Config for Witti v0.11.3
+This document describes how to connect to and participate in the Witti testnet using the Teku ETH2 client. [github.com/PegaSysEng/teku](https://github.com/PegaSysEng/teku)
 
+### Requirements
+This requires Java 11+ and Gradle, get it here: https://gradle.org/
+
+To connect to Witti v0.11.3, you would have to compile Teku from `master` branch.
+```
+git clone https://github.com/PegaSysEng/teku.git
+cd teku/
+git checkout master
+```
+
+Use Gradle to compile Teku.
+```
+./gradlew installDist
+```
+
+_Note,_ the binary can be found in `./build/install/teku/bin/`.
+
+### Beacon Node
+It's assumed you have a local copy of the Witti repository.
+```
+git clone https://github.com/goerli/witti.git
+cd witti/
+```
+
+Run a previously compiled Teku node by pointing it to the Witti config.
 ```
 teku \
---config-file="/home/user/.opt/goerli/witti/teku/config.yaml" \
---network="/home/user/.opt/goerli/witti/teku/chain.yaml"
+--config-file="${PATH_TO_WITTI}/teku/config.yaml" \
+--network="${PATH_TO_WITTI}/teku/chain.yaml"
 ```
 
-generate keypairs and make deposits
-
+### Validator Client
+Teku allows you to generate keypairs and make deposits directly to the ETH1 provider.
 ```
 teku validator generate \
---network="/home/user/.opt/goerli/witti/teku/chain.yaml" \
---eth1-endpoint="http://127.0.0.1:9779" \
+--network="${PATH_TO_WITTI}/teku/chain.yaml" \
+--eth1-endpoint="http://127.0.0.1:8545" \
 --eth1-deposit-contract-address="0x9eED6A5741e3D071d70817beD551D0078e9a2706" \
---eth1-keystore-file="/home/user/.ethereum/goerli/keystore/UTC--2020-04-23T06-29-02.894097316Z--04f67c6fa446486d8da0a3534566bdc75ef67004" \
---eth1-keystore-password-file="/home/user/.opt/goerli/witti/password.txt" \
---keys-output-path="/home/user/.local/share/teku/keystore" \
---encrypted-keystore-validator-password-file="/home/user/.opt/goerli/witti/password.txt" \
---encrypted-keystore-withdrawal-password-file="/home/user/.opt/goerli/witti/password.txt" \
---number-of-validators=2
+--eth1-keystore-file="${PATH_TO_SECURE_BACKUP}/goerli/keystore/UTC--2020-00-00T00-00-00.000000000Z--0000000000000000000000000000000000000000" \
+--eth1-keystore-password-file="${PATH_TO_SECURE_BACKUP}/password.txt" \
+--keys-output-path="${PATH_TO_SECURE_BACKUP}/teku/witti/keystore" \
+--encrypted-keystore-validator-password-file="${PATH_TO_SECURE_BACKUP}/password.txt" \
+--encrypted-keystore-withdrawal-password-file="${PATH_TO_SECURE_BACKUP}/password.txt" \
+--number-of-validators=1
 ```
 
-restart teku with validators enabled
-
-(make sure to add validator paths and passwords to the config.yaml)
-
+Teku comes with beacon node and validator client in one. To activate the generated validators, just add them to the `config.yaml` and restart Teku.
 ```
 teku \
---config-file="/home/user/.opt/goerli/witti/teku/config.yaml" \
---network="/home/user/.opt/goerli/witti/teku/chain.yaml"
+--config-file="${PATH_TO_WITTI}/teku/config.yaml" \
+--network="${PATH_TO_WITTI}/teku/chain.yaml"
 ```
 
-(see config for validator key/pass)
+Taht's it. Please create an issue if this does not work. We will figure it out: https://github.com/goerli/schlesi/issues/new
+
+See also: https://docs.google.com/document/d/1BP6B5muGjLGXVD1EOtorvlSBVzb5XR4OsYwBSTjiiDU/edit
