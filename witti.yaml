@@ -17,7 +17,7 @@ SHUFFLE_ROUND_COUNT: 90
 # `2` validators * `3` clients
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 6
 # May 22, 2020
-MIN_GENESIS_TIME: 1590148800
+MIN_GENESIS_TIME: 1590174000
 # 4
 HYSTERESIS_QUOTIENT: 4
 # 1 (minus 0.25)
@@ -69,8 +69,8 @@ BLS_WITHDRAWAL_PREFIX: 0x03
 
 # Time parameters
 # ---------------------------------------------------------------
-# 3600 seconds (1 hour)
-MIN_GENESIS_DELAY: 3600
+# 18000 seconds (5 hours)
+MIN_GENESIS_DELAY: 18000
 # 12 seconds
 SECONDS_PER_SLOT: 12
 # 2**0 (= 1) slots 12 seconds
