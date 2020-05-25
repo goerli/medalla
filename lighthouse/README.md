@@ -4,11 +4,11 @@ This document describes how to connect to and participate in the Witti testnet u
 ### Requirements
 This requires Rust, of course, get it here: [rustup.rs](https://rustup.rs/)
 
-To connect to Witti v0.11.3, you would have to compile Lighthouse from `master` branch.
+To connect to Witti v0.11.3, you would have to compile Lighthouse from `faster-genesis` branch.
 ```
 git clone https://github.com/sigp/lighthouse.git
 cd lighthouse/
-git checkout master
+git checkout faster-genesis
 ```
 
 Make sure to build in release mode.
