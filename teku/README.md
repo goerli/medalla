@@ -54,6 +54,6 @@ teku \
 --network="${PATH_TO_WITTI}/teku/chain.yaml"
 ```
 
-Taht's it. Please create an issue if this does not work. We will figure it out: https://github.com/goerli/schlesi/issues/new
+That's it. Please create an issue if this does not work. We will figure it out: https://github.com/goerli/schlesi/issues/new
 
 See also: https://docs.google.com/document/d/1BP6B5muGjLGXVD1EOtorvlSBVzb5XR4OsYwBSTjiiDU/edit

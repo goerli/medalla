@@ -50,18 +50,18 @@ After initializing the wallet and backing up the passphrase, we can create valid
 ```
 lighthouse account_manager validator create \
 --at-most 1 \
---testnet-dir {PATH_TO_WITTI}/lighthouse \
+--testnet-dir ${PATH_TO_WITTI}/lighthouse \
 --wallet-name "witti" \
---wallet-passphrase {MY_SECURE_BACKUP}/password.txt
+--wallet-passphrase ${PATH_TO_SECURE_BACKUP}/password.txt
 ```
 
 The validator contract is deployed on Goerli testnet address [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558).
 
-Assuming you have a Goerli node running with an IPC endpoint exposed and the sender address unlocked. This will send the deposit from your account `04f67c6fa446486d8da0a3534566bdc75ef67004`.
+Assuming you have a Goerli node running with an IPC endpoint exposed and the sender address unlocked. This will send the deposit from your account `0x272dd1ff68461dfa848c9c30d8e2c3180a8f18de`.
 ```
 lighthouse account_manager validator deposit \
 --eth1-ipc ${PATH_TO_GOERLI}/geth.ipc \
---from-address 04f67c6fa446486d8da0a3534566bdc75ef67004 \
+--from-address 272dd1ff68461dfa848c9c30d8e2c3180a8f18de \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse \
 --validator all
 ```

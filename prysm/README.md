@@ -56,7 +56,7 @@ To start validating, open another terminal and launch the validator client:
 bazel run //validator -- \
 --witti-testnet \
 --keymanager "keystore" \
---keymanageropts='{"passphrase":"${MY_SECRET_PASSWORD", "path":"${PATH_TO_SECURE_BACKUP}/validators"}' \
+--keymanageropts='{"passphrase":"${MY_SECRET_PASSWORD}", "path":"${PATH_TO_SECURE_BACKUP}/validators"}' \
 --graffiti "Hello Witti"
 ```
 

@@ -3,7 +3,7 @@ network: "./chain.yaml"
 
 eth1-deposit-contract-address: "0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558"
 eth1-enabled: true
-eth1-endpoint: "http://127.0.0.1:9779"
+eth1-endpoint: "http://127.0.0.1:8545"
 
 logging: "INFO"
 log-color-enabled: true
@@ -15,15 +15,15 @@ p2p-enabled: true
 p2p-discovery-enabled: true
 p2p-snappy-enabled: true
 p2p-discovery-bootnodes:
-  - "enr:-KG4QO6QrRlWQ2Z5ss4XoUsrPvsepRuuogcHyC81gMQr7PJ3IFh41bDnGSl9iN_ijg2EgQeEQDpRPkE4FzD2ecbp6XoChGV0aDKQgGboQQAAARP__________4JpZIJ2NIJpcIQAAAAAiXNlY3AyNTZrMaEDpsGvSN7oM2c04ZT9mrG32TVj-sMhb6HiKc6LMEXYEyiDdGNwgnUwg3VkcIJ1MA"
+  - "enr:-KG4QIC1SKQtGvKo-somCB9ifRJsFYOtwpWizmPd5gUd93s6dRhZCD9Ur9t6VGrotqNv5n2IJfAkyCydQJgAH-Cbr6gChGV0aDKQgGboQQAAARP__________4JpZIJ2NIJpcIQAAAAAiXNlY3AyNTZrMaEDR5rZBQCPNGnoPsNYzKfRFKnW9or2YqcInosp_sHnqTODdGNwgnUwg3VkcIJ1MA"
 
 rest-api-port: 5051
 rest-api-enabled: True
 rest-api-interface: "127.0.0.1"
 
 validators-key-files:
-  - "/home/user/.local/share/teku/keystore/validator_92db817/validator_92db817.json"
-  - "/home/user/.local/share/teku/keystore/validator_97e54f5/validator_97e54f5.json"
+  - "/home/user/.local/share/teku/witti/keystore/validator_84721d3/validator_84721d3.json"
+  - "/home/user/.local/share/teku/witti/keystore/validator_a37d515/validator_a37d515.json"
 
 validators-key-password-files:
   - "/home/user/.opt/goerli/witti/password.txt"
