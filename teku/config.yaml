@@ -22,8 +22,8 @@ rest-api-enabled: True
 rest-api-interface: "127.0.0.1"
 
 validators-key-files:
-  - "/home/user/.local/share/teku/witti/keystore/validator_84721d3/validator_84721d3.json"
-  - "/home/user/.local/share/teku/witti/keystore/validator_a37d515/validator_a37d515.json"
+  - "/home/user/.local/share/teku/witti/keystore/validator_ad5c50d/validator_ad5c50d.json"
+  - "/home/user/.local/share/teku/witti/keystore/validator_b92fe9b/validator_b92fe9b.json"
 
 validators-key-password-files:
   - "/home/user/.opt/goerli/witti/password.txt"
