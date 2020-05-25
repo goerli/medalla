@@ -1,6 +1,6 @@
 # Local setup
-password.txt
-mnemonic.txt
+*.pass
+*.txt
 
 # Logs
 logs
