@@ -13,7 +13,8 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 [![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
-# _This is work in progress._
+_This is work in progress. New Genesis Time: May 26, 2020, 9am UTC._
+
 Current ETH 2.0 specification version support:
 - [x] ~~v0.10.1~~ (retired & moved to `.trash/v0-10-1`)
 - [x] ~~v0.11.2 "Schlesi"~~ (retired & moved to `.trash/schlesi`)
