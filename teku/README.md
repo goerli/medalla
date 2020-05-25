@@ -38,7 +38,7 @@ Teku allows you to generate keypairs and make deposits directly to the ETH1 prov
 teku validator generate \
 --network="${PATH_TO_WITTI}/teku/chain.yaml" \
 --eth1-endpoint="http://127.0.0.1:8545" \
---eth1-deposit-contract-address="0x9eED6A5741e3D071d70817beD551D0078e9a2706" \
+--eth1-deposit-contract-address="0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558" \
 --eth1-keystore-file="${PATH_TO_SECURE_BACKUP}/goerli/keystore/UTC--2020-00-00T00-00-00.000000000Z--0000000000000000000000000000000000000000" \
 --eth1-keystore-password-file="${PATH_TO_SECURE_BACKUP}/password.txt" \
 --keys-output-path="${PATH_TO_SECURE_BACKUP}/teku/witti/keystore" \

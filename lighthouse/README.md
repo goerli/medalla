@@ -55,7 +55,7 @@ lighthouse account_manager validator create \
 --wallet-passphrase {MY_SECURE_BACKUP}/password.txt
 ```
 
-The validator contract is deployed on Goerli testnet address [`0x9eED6A5741e3D071d70817beD551D0078e9a2706`](https://goerli.etherscan.io/address/0x9eED6A5741e3D071d70817beD551D0078e9a2706).
+The validator contract is deployed on Goerli testnet address [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558).
 
 Assuming you have a Goerli node running with an IPC endpoint exposed and the sender address unlocked. This will send the deposit from your account `04f67c6fa446486d8da0a3534566bdc75ef67004`.
 ```

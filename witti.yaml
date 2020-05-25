@@ -16,8 +16,8 @@ CHURN_LIMIT_QUOTIENT: 65536
 SHUFFLE_ROUND_COUNT: 90
 # `2` validators * `3` clients
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 6
-# May 22, 2020
-MIN_GENESIS_TIME: 1590174000
+# May 26, 2020
+MIN_GENESIS_TIME: 1590483600
 # 4
 HYSTERESIS_QUOTIENT: 4
 # 1 (minus 0.25)
@@ -45,10 +45,10 @@ SECONDS_PER_ETH1_BLOCK: 14
 
 # Deposit contract
 # ---------------------------------------------------------------
-# https://goerli.etherscan.io/address/0x9eED6A5741e3D071d70817beD551D0078e9a2706
-DEPOSIT_CONTRACT_ADDRESS: 0x9eED6A5741e3D071d70817beD551D0078e9a2706
-# https://goerli.etherscan.io/block/2740461
-DEPOSIT_CONTRACT_BLOCK: 0x29d0ed
+# https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558
+DEPOSIT_CONTRACT_ADDRESS: 0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558
+# https://goerli.etherscan.io/block/2758066
+DEPOSIT_CONTRACT_BLOCK: 0x2a15b2
 
 # Gwei values
 # ---------------------------------------------------------------
@@ -69,8 +69,8 @@ BLS_WITHDRAWAL_PREFIX: 0x03
 
 # Time parameters
 # ---------------------------------------------------------------
-# 18000 seconds (5 hours)
-MIN_GENESIS_DELAY: 18000
+# 86400 seconds (1 day)
+MIN_GENESIS_DELAY: 86400
 # 12 seconds
 SECONDS_PER_SLOT: 12
 # 2**0 (= 1) slots 12 seconds

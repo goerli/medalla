@@ -1,4 +1,3 @@
-![please don't use](.res/warning.png)
 
 # Witti ETH 2.0 Testnet
 ![cortex](https://img.shields.io/badge/cortex-n%2Fa-inactive)
@@ -15,8 +14,6 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 # _This is work in progress._
-![please don't use](.res/warning.png)
-
 Current ETH 2.0 specification version support:
 - [x] ~~v0.10.1~~ (retired & moved to `.trash/v0-10-1`)
 - [x] ~~v0.11.2 "Schlesi"~~ (retired & moved to `.trash/schlesi`)
@@ -28,15 +25,13 @@ Current ETH 2.0 specification version support:
 - [ ] v0.11.3 "Witti"
   - Fork Digest: `0x0`
   - Genesis Root: `0x0`
-  - Deposit Contract: [`0x9eED6A5741e3D071d70817beD551D0078e9a2706`](https://goerli.etherscan.io/address/0x9eED6A5741e3D071d70817beD551D0078e9a2706)
+  - Deposit Contract: [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558)
   - Chain Explorer: N/A
   - Status Dashboard: N/A
 - [ ] v0.12.x
 
 
 ### `v0.11.3` "Witti"
-![please don't use](.res/warning.png)
-
 This repository contains the client configuration files and genesis state for the `v0.11.3` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
 - [ ] Cortex
 - [x] Lighthouse [config: `light/`](light/), [docs: `light/README.md`](light/README.md)
@@ -47,8 +42,6 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Trinity
 
 Clients will be added one by one once they manage to connect, synchronize, and stay in consensus. _Work in progress._
-![please don't use](.res/warning.png)
-
 ### `v0.11.2` "Schlesi"
 The `v0.11.2` _Schlesi_ testnet had multiple consensus issues and will no longer be maintained. It will be kept around for debugging purposes. New clients will be added to the _Witti_ testnet (see above).
 
@@ -93,7 +86,7 @@ The focus of the testnet is no longer developer but end-user centric. Each user 
 Additionally, not having a script that does the job for you, ensures that all node implementations and their according tooling are well documented across the different clients.
 
 ##### Is _Witti_ an incentivized adversarial network?
-No. The Witti testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x9eED6A5741e3D071d70817beD551D0078e9a2706`](https://goerli.etherscan.io/address/0x9eED6A5741e3D071d70817beD551D0078e9a2706) on the _Goerli_ Ethereum testnet and start validating on Schlesi.
+No. The Witti testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558) on the _Goerli_ Ethereum testnet and start validating on Schlesi.
 
 ##### Why do you call it _Witti_?
 Witti (Wittenbergplatz) is a subway station in Berlin proposed by MP. It's the first testnet named by a subway station in Berlin that is not located in the district of Kreuzberg were many blockchain companies, including the ETH DEV, have their offices.
