@@ -6,11 +6,11 @@ This requires Bazel, get it here: [bazel.build](https://bazel.build/)
 
 _Note:_ Bazel will manage the build and dependencies, for other options, please refer to the Prysm documentation. [prysmaticlabs.gitbook.io/prysm](https://prysmaticlabs.gitbook.io/prysm/)
 
-To connect to Witti v0.11.3, you would have to compile Prysm from `q9-witti-testnet` branch. See [prysmaticlabs/prysm#5905](https://github.com/prysmaticlabs/prysm/pull/5905)
+To connect to Witti v0.11.3, you would have to compile Prysm from the `witti` branch. See https://github.com/prysmaticlabs/prysm/tree/witti
 ```
-git clone https://github.com/q9f/prysm.git
+git clone https://github.com/prysmaticlabs/prysm.git
 cd prysm/
-git checkout q9-witti-testnet
+git checkout witti
 ```
 
 Bazel `build` compiles everything.
