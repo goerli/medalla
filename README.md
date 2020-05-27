@@ -23,7 +23,7 @@ Current ETH 2.0 specification version support:
   - ~~Deposit Contract: `0xA15554BF93a052669B511ae29EA21f3581677ac5`~~
   - ~~Chain Explorer: schlesi.beaconcha.in~~
   - ~~Status Dashboard: eth2stats.io/schlesi-testnet~~
-- [ ] v0.11.3 "Witti"
+- [x] v0.11.3 "Witti"
   - Genesis Time: `1590537600` (2020-05-27 00:00:00 +0000 UTC)
   - Fork Digest: `f6775d07`
   - Initial State Root: `0x773c694b47504d789dc768d2356f691866b47833d0d85e02511d7cd339925b17`
