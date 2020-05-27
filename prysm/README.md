@@ -24,6 +24,7 @@ Run your beacon node.
 ```
 bazel run //beacon-chain -- \
 --witti-testnet \
+--http-web3provider ws://127.0.0.1:8545 \
 --web3provider ws://127.0.0.1:8546 \
 --min-sync-peers 1 \
 --bootstrap-node "enr:-Ku4QJsxkOibTc9FXfBWYmcdMAGwH4bnOOFb4BlTHfMdx_f0WN-u4IUqZcQVP9iuEyoxipFs7-Qd_rH_0HfyOQitc7IBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpD1pf1CAAAAAP__________gmlkgnY0gmlwhLAJM9iJc2VjcDI1NmsxoQL2RyM26TKZzqnUsyycHQB4jnyg6Wi79rwLXtaZXty06YN1ZHCCW8w" \
