@@ -72,7 +72,7 @@ It's recommended to use a Geth node as ETH1 provider.
 To start validating, open another terminal and launch the validator client:
 
 ```
-lighthouse vc \
+lighthouse vc --auto-register \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse
 ```
 
