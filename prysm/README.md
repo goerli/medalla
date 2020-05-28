@@ -24,13 +24,13 @@ Run your beacon node.
 ```
 bazel run //beacon-chain -- \
 --witti-testnet \
---http-web3provider ws://127.0.0.1:8545 \
+--http-web3provider http://127.0.0.1:8545 \
 --web3provider ws://127.0.0.1:8546 \
 --min-sync-peers 1 \
 --bootstrap-node "enr:-Ku4QJsxkOibTc9FXfBWYmcdMAGwH4bnOOFb4BlTHfMdx_f0WN-u4IUqZcQVP9iuEyoxipFs7-Qd_rH_0HfyOQitc7IBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpD1pf1CAAAAAP__________gmlkgnY0gmlwhLAJM9iJc2VjcDI1NmsxoQL2RyM26TKZzqnUsyycHQB4jnyg6Wi79rwLXtaZXty06YN1ZHCCW8w" \
 --bootstrap-node "enr:-LK4QKTkBk3I1y4__nfX18Jdhcko2ExQzqpr8byjTB7t8HVFTLKNvipBZbPItODKWFdhBVN8vVh89ScZPdSTNoiLXXoBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpD2d10HAAABE___________gmlkgnY0gmlwhLAJM9iJc2VjcDI1NmsxoQICvB04SDhZK46nvJmm6GZvo8RsKctq4uWK6jQRZBxewoN0Y3CCIyiDdWRwgiMo" \
 --bootstrap-node "enr:-LK4QO-InqtcvYyJysIC8m-GimjQxeh2fMYNg557rfLD3iOtK5rZo6-1N09tw0NeIt4ht2rLtCNS6NGwU38qarXaVUMBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpD2d10HAAABE___________gmlkgnY0gmlwhLAJM9iJc2VjcDI1NmsxoQISU9N1Kj03Z-IBVlevP56X9qkZxA1fv62TLRKlfzI1LYN0Y3CCMsiDdWRwgi7g" \
---bootstrap-node "enr:-KG4QOWbLS8XipfTFUjjaboBG8F4fkw7YtSSvvenmlGz6z8LeknOAxokwlhQWwiV3AftLgreD8hC94EnXdYzw93aVdQDhGV0aDKQ9nddBwAAARP__________4JpZIJ2NIJpcISwCTPYiXNlY3AyNTZrMaECLYJchUH6A-oyZenBKm5hLwIDy6xZqksxOt24irvEOEuDdGNwgnUwg3VkcIJ1MA
+--bootstrap-node "enr:-KG4QOWbLS8XipfTFUjjaboBG8F4fkw7YtSSvvenmlGz6z8LeknOAxokwlhQWwiV3AftLgreD8hC94EnXdYzw93aVdQDhGV0aDKQ9nddBwAAARP__________4JpZIJ2NIJpcISwCTPYiXNlY3AyNTZrMaECLYJchUH6A-oyZenBKm5hLwIDy6xZqksxOt24irvEOEuDdGNwgnUwg3VkcIJ1MA"
 ```
 
 _Note,_ the config assumes you have an ETH1 Goerli node running on localhost with WS APIs enabled. If you don't have any ETH1 node locally, just skip the `web3provider` flags and the node will default to the public Prysmatic Labs Goerli endpoint.
