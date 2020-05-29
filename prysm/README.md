@@ -65,4 +65,4 @@ bazel run //validator -- \
 
 _Note,_ Prysm allows you to set a custom `--graffiti`. :)
 
-That's it. Please create an issue if this does not work. We will figure it out: [github.com/goerli/schlesi/issues/new](https://github.com/goerli/schlesi/issues/new)
+That's it. Please create an issue if this does not work. We will figure it out: [github.com/goerli/witti/issues/new](https://github.com/goerli/witti/issues/new)
