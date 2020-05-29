@@ -37,7 +37,7 @@ Current ETH 2.0 specification version support:
 ### `v0.11.3` "Witti"
 This repository contains the client configuration files and genesis state for the `v0.11.3` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
 - [ ] Cortex
-- [x] Lighthouse [config: `lighthouse/`](lighthouse/), [docs: `lighthouse/README.md`](light/README.md)
+- [x] Lighthouse [config: `lighthouse/`](lighthouse/), [docs: `lighthouse/README.md`](lighthouse/README.md)
 - [ ] Lodestar _(WIP)_
 - [ ] Nimbus _(WIP)_
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
