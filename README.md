@@ -115,6 +115,7 @@ Resources:
 - [Stack Exchange: How would a chain specification for a beacon chain look like?](https://ethereum.stackexchange.com/questions/80264/how-would-a-chain-specification-for-a-beacon-chain-look-like)
 
 Historical documentation:
+- [Analysis: A (DHT) Crawl Through The Witti Testnet 🕷](https://txrx-research.github.io/prkl/testnet-analysis.html)
 - [Archived: Schlesi v0.11.2 ETH 2.0 Testnet](./.trash/schlesi/README.md)
 - [Gist: Schlesi ETH 2.0 Multi-Client Testnet configuration](https://gist.github.com/q9f/d6eea3ea3356e41bde81864143284ce9)
 - [Field notes: Towards a multi-client Ethereum 2.0 testnet](https://hackmd.io/GIwaFeGaQn6q7VYb_n94LA)
