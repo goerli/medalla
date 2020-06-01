@@ -4,11 +4,10 @@ This document describes how to connect to and participate in the Witti testnet u
 ### Requirements
 This requires Rust, of course, get it here: [rustup.rs](https://rustup.rs/)
 
-To connect to Witti v0.11.3, you would have to compile Lighthouse from `faster-genesis` branch.
+To connect to Witti v0.11.3, first clone the project.
 ```
 git clone https://github.com/sigp/lighthouse.git
 cd lighthouse/
-git checkout faster-genesis
 ```
 
 Make sure to build in release mode.
@@ -29,7 +28,7 @@ lighthouse bn \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse
 ```
 
-If you plan to run a validator on Schlesi, enable the Rest API with ` --http` and provide an `--eth1-endpoint`.
+If you plan to run a validator on Witti, enable the Rest API with ` --http` and provide an `--eth1-endpoint`.
 ```
 lighthouse bn --http \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse \
@@ -76,4 +75,4 @@ lighthouse vc --auto-register \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse
 ```
 
-That's it. Please create an issue if this does not work. We will figure it out: [github.com/goerli/schlesi/issues/new](https://github.com/goerli/schlesi/issues/new)
+That's it. Please create an issue if this does not work. We will figure it out: [github.com/goerli/witti/issues/new](https://github.com/goerli/witti/issues/new)
