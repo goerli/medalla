@@ -28,7 +28,7 @@ lighthouse bn \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse
 ```
 
-If you plan to run a validator on Schlesi, enable the Rest API with ` --http` and provide an `--eth1-endpoint`.
+If you plan to run a validator on Witti, enable the Rest API with ` --http` and provide an `--eth1-endpoint`.
 ```
 lighthouse bn --http \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse \
@@ -75,4 +75,4 @@ lighthouse vc --auto-register \
 --testnet-dir ${PATH_TO_WITTI}/lighthouse
 ```
 
-That's it. Please create an issue if this does not work. We will figure it out: [github.com/goerli/schlesi/issues/new](https://github.com/goerli/schlesi/issues/new)
+That's it. Please create an issue if this does not work. We will figure it out: [github.com/goerli/witti/issues/new](https://github.com/goerli/witti/issues/new)
