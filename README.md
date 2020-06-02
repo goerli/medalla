@@ -31,7 +31,7 @@ Current ETH 2.0 specification version support:
   - Deposit Contract: [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558) ([Goerli Testnet](https://github.com/goerli/testnet))
   - Chain Explorer: [witti.beaconcha.in](https://witti.beaconcha.in/)
   - Status Dashboard: [eth2stats.io/witti-testnet](https://eth2stats.io/witti-testnet)
-- [ ] v0.12.x
+- [ ] v0.12.0 "Altona" [#17](https://github.com/goerli/witti/issues/17)
 
 
 ### `v0.11.3` "Witti"
