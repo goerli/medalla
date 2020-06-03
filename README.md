@@ -125,5 +125,12 @@ Previous multi-client testnets:
 - [Github: eth2-clients/multinet](https://github.com/eth2-clients/multinet)
 - [Github: eth2-clients/eth2-testnets](https://github.com/eth2-clients/eth2-testnets)
 
+### Support
+This project is supported by the:
+* Görli Testnet Initiative - [goerli.net](https://goerli.net/)
+* Ecosystem Support Programme - [esp.ethereum.foundation](https://esp.ethereum.foundation/en/)
+
+Thanks :heart:
+
 ### License
 This is free and unencumbered software released into the public domain. For more information, please refer to [unlicense.org](https://unlicense.org)
