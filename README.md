@@ -23,7 +23,9 @@ Current ETH 2.0 specification version support:
   - Initial State Root: `0x773c694b47504d789dc768d2356f691866b47833d0d85e02511d7cd339925b17`
   - Genesis Block Root: `0x19aa2deaa02cac9774eb8948a8ead1ebe851ba9590878a10cd5767092e16ba12`
   - Deposit Contract: [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558) ([Goerli Testnet](https://github.com/goerli/testnet))
-  - Chain Explorer: [witti.beaconcha.in](https://witti.beaconcha.in/)
+  - Chain Explorers:
+    - [witti.beaconcha.in](https://witti.beaconcha.in/)
+    - [witti.blockaction.io](https://witti.blockaction.io/)
   - Status Dashboard: [eth2stats.io/witti-testnet](https://eth2stats.io/witti-testnet)
 - [x] ~~v0.11.2 "Schlesi"~~ (retired & moved to `.trash/schlesi`)
   - ~~Fork Digest: `9925efd6`~~
