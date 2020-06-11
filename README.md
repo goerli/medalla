@@ -45,7 +45,7 @@ This repository contains the client configuration files and genesis state for th
 - [ ] Cortex
 - [x] Lighthouse [config: `lighthouse/`](lighthouse/), [docs: `lighthouse/README.md`](lighthouse/README.md)
 - [ ] Lodestar _(WIP)_
-- [ ] Nimbus _(WIP)_
+- [x] Nimbus _(WIP)_ `git checkout devel && make witti`
 - [x] Prysm [config: `prysm/`](prysm/), [docs: `prysm/README.md`](prysm/README.md)
 - [x] Teku [config: `teku/`](teku/), [docs: `teku/README.md`](teku/README.md)
 - [ ] Trinity
