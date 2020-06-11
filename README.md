@@ -60,7 +60,7 @@ The `v0.10.1` testnet lost finality eventually and was retired in favor of the _
 * See [v0-10-1/README.md](./.trash/v0-10-1/README.md)
 
 ### F.A.Q.
-_I'm wondering why ..._
+_I'm wondering ..._
 
 ##### Why do we need multi-client test-networks?
 The first phase of Ethereum 2.0, the phase 0, is the beacon chain. For the first time, a variety of new clients will be working together on a brand new blockchain with a new, unique approach to networking and consensus.
@@ -69,10 +69,13 @@ Before such a mainnet can be launched, we need testnets that mimic mainnet condi
 
 The Schlesi testnet was one of many steps in that direction. The Witti testnet is another.
 
-##### What's the difference between Witti and _Topaz_?
-The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet launched by the Prysmatic Labs team. It's entirely comprised of Prysm validators.
+##### What's the difference between Witti and _Onyx_?
+The [Onyx Testnet](https://medium.com/prysmatic-labs/introducing-the-onyx-testnet-6dadbd95d873) is a single-client testnet launched by the Prysmatic Labs team to replace _Topaz_. It's entirely comprised of Prysm validators, other clients didn't have releases at genesis yet.
 
-Witti, on the other side, try to have as many different clients right from the start. The Schlesi genesis contained 50% Lighthouse and 50% Prysm validators. Other clients joined the network since. It's a multi-client testnet.
+Witti and Schlesi, on the other side, tried to have as many different clients right from the start. The Schlesi genesis contained 50% Lighthouse and 50% Prysm validators. The Witti genesis even featured three clients. It's a multi-client testnet.
+
+##### What's the difference between Witti and _Topaz_?
+The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet. Same reasoning as _Onyx_ above.
 
 ##### What's the difference between Witti and _Multinet_?
 The [ETH 2.0 Multinet](https://github.com/eth2-clients/multinet) is a collection of startup scripts to simulate multi-client testnets with various parameters such as number of validators to run the network with. The multinet is based on a minimal ETH 2.0 specification.
