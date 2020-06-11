@@ -3,7 +3,7 @@
 ![cortex](https://img.shields.io/badge/cortex-n%2Fa-inactive)
 ![lighthouse](https://img.shields.io/badge/lighthouse-active-success)
 ![lodestar](https://img.shields.io/badge/lodestar-in--progress-yellow)
-![nimbus](https://img.shields.io/badge/nimbus-in--progress-yellow)
+![nimbus](https://img.shields.io/badge/nimbus-in--sync-green)
 ![prysm](https://img.shields.io/badge/prysm-active-success)
 ![teku](https://img.shields.io/badge/teku-active-success)
 ![trinity](https://img.shields.io/badge/trinity-n%2Fa-inactive)
@@ -37,6 +37,8 @@ Current ETH 2.0 specification version support:
   - ~~Status Dashboard: eth2stats.io/schlesi-testnet~~
 - [x] ~~v0.10.1~~ (retired & moved to `.trash/v0-10-1`)
 
+### `v0.12.1` "Altona"
+Soon [#17](https://github.com/goerli/witti/issues/17).
 
 ### `v0.11.3` "Witti"
 This repository contains the client configuration files and genesis state for the `v0.11.3` Ethereum 2.0 specification multi-client testnet _"Witti v0.11"_ for the following clients:
