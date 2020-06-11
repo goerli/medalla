@@ -26,7 +26,8 @@ Current ETH 2.0 specification version support:
   - Chain Explorers:
     - [witti.beaconcha.in](https://witti.beaconcha.in/)
     - [witti.blockaction.io](https://witti.blockaction.io/)
-  - Public API: [witti.infura.io](https://witti.infura.io)
+  - Infura API: [witti.infura.io](https://witti.infura.io)
+    - **Note:** Requires an Infura account and currently in private beta. [Reach out if interested in access.](https://infura.io/contact)
   - Status Dashboard: [eth2stats.io/witti-testnet](https://eth2stats.io/witti-testnet)
 - [x] ~~v0.11.2 "Schlesi"~~ (retired & moved to `.trash/schlesi`)
   - ~~Fork Digest: `9925efd6`~~
