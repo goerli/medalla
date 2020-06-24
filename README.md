@@ -2,8 +2,8 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
-* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md)
-* **Witti** v0.11.3 testnet: [witti/README.md](./witti/README.md)
+* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) (soon)
+* **Witti** v0.11.3 testnet: [witti/README.md](./witti/README.md) (active)
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) (inactive)
 * _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) (inactive)
   
@@ -18,38 +18,41 @@ The first phase of Ethereum 2.0, the phase 0, is the beacon chain. For the first
 
 Before such a mainnet can be launched, we need testnets that mimic mainnet conditions as good as possible. This requires us to have stable, long-term, and persistent testnets up and running that are supported by not only one client but multiple clients, ideally, all clients.
 
-The Schlesi testnet was one of many steps in that direction. The Witti testnet is another.
+The Schlesi testnet was one of many steps in that direction. The Witti testnet was another. The Altona testnet is yet another.
 
-##### What's the difference between Witti and _Onyx_?
+##### What's the difference between Altona and _Onyx_?
 The [Onyx Testnet](https://medium.com/prysmatic-labs/introducing-the-onyx-testnet-6dadbd95d873) is a single-client testnet launched by the Prysmatic Labs team to replace _Topaz_. It's entirely comprised of Prysm validators, other clients didn't have releases at genesis yet.
 
-Witti and Schlesi, on the other side, tried to have as many different clients right from the start. The Schlesi genesis contained 50% Lighthouse and 50% Prysm validators. The Witti genesis even featured three clients. It's a multi-client testnet.
+Altona, Witti, and Schlesi, on the other side, tried to have as many different clients right from the start. The Schlesi genesis contained 50% Lighthouse and 50% Prysm validators. The Witti genesis even featured three clients. Altona featured four clients. They are multi-client testnets.
 
-##### What's the difference between Witti and _Topaz_?
+##### What's the difference between Altona and _Topaz_?
 The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet. Same reasoning as _Onyx_ above.
 
-##### What's the difference between Witti and _Multinet_?
+##### What's the difference between Altona and _Multinet_?
 The [ETH 2.0 Multinet](https://github.com/eth2-clients/multinet) is a collection of startup scripts to simulate multi-client testnets with various parameters such as number of validators to run the network with. The multinet is based on a minimal ETH 2.0 specification.
 
-Witti, however, is _not_ a simulation. It's a real persistent end-user testnet based on a slightly modified mainnet configuration. Everyone should be able to add validators and beacon chain nodes.
+Altona, however, is _not_ a simulation. It's a real persistent end-user testnet based on a slightly modified mainnet configuration. Everyone should be able to add validators and beacon chain nodes.
 
-##### What's the difference between Witti and _Interop_?
+##### What's the difference between Altona and _Interop_?
 The [ETH 2.0 Interop Lock-In](https://blog.ethereum.org/2019/09/19/eth2-interop-in-review/) was a physical meetup of seven client teams working towards interoperability in 2019. This was the first major step towards multi-client testnets, even though the focus of the lock-in was mainly on networking. Other aspects of interoperability were playing minor roles.
 
-For Witti, _all_ aspects are important, as they would be important for a potential mainnet candidate.
+For Altona, _all_ aspects are important, as they would be important for a potential mainnet candidate.
 
-##### Why does Witti use the _Mainnet_ configuration?
-The ultimate goal of Witti should be proving that the clients are ready to support a potential beacon-chain mainnet. Therefore, it is time to template the testnet as close as possible to mainnet.
+##### Why does Altona use the _Mainnet_ configuration?
+The ultimate goal of Altona should be proving that the clients are ready to support a potential beacon-chain mainnet. Therefore, it is time to template the testnet as close as possible to mainnet.
 
 ##### Why is there no docker file or startup script?
 The focus of the testnet is no longer developer but end-user centric. Each user of the beacon chain should be able to manually complete any task, i.e., setting up a validator or synchronizing a beacon chain node. Scripts will be convenient in future to ease this process but for now we need to ensure that nodes, clients, and other tooling is ready to be used sufficiently to complete all tasks required by a beacon chain mainnet.
 
 Additionally, not having a script that does the job for you, ensures that all node implementations and their according tooling are well documented across the different clients.
 
-##### Is _Witti_ an incentivized adversarial network?
-No. The Witti testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558) on the _Goerli_ Ethereum testnet and start validating on Witti.
+##### Is _Altona_ an incentivized adversarial network?
+No. The Altona testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558) on the _Goerli_ Ethereum testnet and start validating on Altona.
 
-##### Why do you call it _Witti_?
+##### Why do you call it _Altona_?
+Altona is a subway station in the city of Hamburg, Germany. It was [proposed on Reddit by u/krokodilmannchen](https://www.reddit.com/r/ethfinance/comments/guf8lr/daily_general_discussion_june_1_2020/fsil2n8/).
+
+##### Why did you call Witti _Witti_?
 Witti (Wittenbergplatz) is a subway station in Berlin proposed by MP. It's the first testnet named by a subway station in Berlin that is not located in the district of Kreuzberg were many blockchain companies, including the ETH DEV, have their offices.
 
 ##### Why did you call Schlesi _Schlesi_?
