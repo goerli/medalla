@@ -30,3 +30,6 @@ validators-key-files:
 validators-key-password-files:
   - "/home/user/.opt/goerli/witti/password.txt"
   - "/home/user/.opt/goerli/witti/password.txt"
+
+metrics-enabled: True
+metrics-port: 8008
