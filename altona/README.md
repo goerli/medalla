@@ -11,22 +11,21 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 
 Current ETH 2.0 specification version support:
 - [ ] v0.12.1 "Altona" [#17](https://github.com/goerli/altona/issues/17)
-  - Genesis Time:
+  - Genesis Time: estimated Friday June/26 ~16:30 UTC
   - Fork Digest:
   - Initial State Root:
   - Genesis Block Root:
-  - Deposit Contract:
+  - Deposit Contract: `0x16e82D77882A663454Ef92806b7DeCa1D394810f`
   - Chain Explorers: [altona.beaconcha.in](https://altona.beaconcha.in/)
   - Status Dashboard:
 
-### `v0.12.1` "Altona"
-This repository contains the client configuration files and genesis state for the `v0.12.1` Ethereum 2.0 specification multi-client testnet _"Altona v0.11"_ for the following clients:
+This repository contains the client configuration files and genesis state for the `v0.12.1` Ethereum 2.0 specification multi-client testnet _"Altona v0.12"_ for the following clients:
 - [ ] Cortex
-- [ ] Lighthouse
+- [x] Lighthouse (Genesis)
 - [ ] Lodestar
-- [ ] Nimbus
-- [ ] Prysm
-- [ ] Teku
+- [x] Nimbus (Genesis)
+- [x] Prysm (Genesis)
+- [x] Teku (Genesis)
 - [ ] Trinity
 
 Clients will be added one by one once they manage to connect, synchronize, and stay in consensus.

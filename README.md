@@ -2,10 +2,10 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
-* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) (soon)
-* **Witti** v0.11.3 testnet: [witti/README.md](./witti/README.md) (active)
-* Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) (inactive)
-* _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) (inactive)
+* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) _(soon)_
+* **Witti** v0.11.3 testnet: [witti/README.md](./witti/README.md) (**active**)
+* Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
+* _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
   
 [![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
@@ -47,7 +47,7 @@ The focus of the testnet is no longer developer but end-user centric. Each user 
 Additionally, not having a script that does the job for you, ensures that all node implementations and their according tooling are well documented across the different clients.
 
 ##### Is _Altona_ an incentivized adversarial network?
-No. The Altona testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558`](https://goerli.etherscan.io/address/0x42cc0FcEB02015F145105Cf6f19F90e9BEa76558) on the _Goerli_ Ethereum testnet and start validating on Altona.
+No. The Altona testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) on the _Goerli_ Ethereum testnet and start validating on Altona.
 
 ##### Why do you call it _Altona_?
 Altona is a subway station in the city of Hamburg, Germany. It was [proposed on Reddit by u/krokodilmannchen](https://www.reddit.com/r/ethfinance/comments/guf8lr/daily_general_discussion_june_1_2020/fsil2n8/).
