@@ -5,13 +5,13 @@
 ![nimbus](https://img.shields.io/badge/nimbus-active-success)
 ![prysm](https://img.shields.io/badge/prysm-active-success)
 ![teku](https://img.shields.io/badge/teku-active-success)
-![trinity](https://img.shields.io/badge/trinity-n%2Fa-inactive)
+![trinity](https://img.shields.io/badge/trinity-in--progress-yellow)
 
 Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet efforts.
 
 Current ETH 2.0 specification version support:
 - [ ] v0.12.1 "Altona" [#17](https://github.com/goerli/altona/issues/17)
-  - Genesis Time: estimated Monday June/29 ~12:30 UTC
+  - Genesis Time: _estimated Monday June/29 ~12:30 UTC_
   - Fork Digest:
   - Initial State Root:
   - Genesis Block Root:
@@ -21,11 +21,11 @@ Current ETH 2.0 specification version support:
 
 This repository contains the client configuration files and genesis state for the `v0.12.1` Ethereum 2.0 specification multi-client testnet _"Altona v0.12"_ for the following clients:
 - [ ] Cortex
-- [x] Lighthouse (Genesis)
+- [x] Lighthouse (Genesis): defaults to Altona [#1295](https://github.com/sigp/lighthouse/pull/1295), just run `lighthouse bn` or refer to the [latest documentation](https://lighthouse-book.sigmaprime.io/).
 - [ ] Lodestar
-- [x] Nimbus (Genesis)
-- [x] Prysm (Genesis)
-- [x] Teku (Genesis)
+- [x] Nimbus (Genesis): checkout the `devel` branch, and run `make altona`.
+- [x] Prysm (Genesis): comes with an Altona config (#6380)[https://github.com/prysmaticlabs/prysm/pull/6380], just run `beacon-chain --altona` or refer to the [latest documentation](https://docs.prylabs.network/docs/getting-started/).
+- [x] Teku (Genesis): defaults to Altona [#2223](https://github.com/PegaSysEng/teku/pull/2223), just run `teku` or refer to the [latest documentation](https://docs.teku.pegasys.tech/en/latest/).
 - [ ] Trinity
 
 Clients will be added one by one once they manage to connect, synchronize, and stay in consensus.
