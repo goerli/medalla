@@ -11,7 +11,7 @@ Documentation of the Ethereum 2.0 phase-0 beacon-chain multi-client testnet effo
 
 Current ETH 2.0 specification version support:
 - [ ] v0.12.1 "Altona" [#17](https://github.com/goerli/altona/issues/17)
-  - Genesis Time: estimated Friday June/26 ~16:30 UTC
+  - Genesis Time: estimated Monday June/29 ~12:30 UTC
   - Fork Digest:
   - Initial State Root:
   - Genesis Block Root:
