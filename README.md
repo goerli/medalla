@@ -63,7 +63,8 @@ Goerli is a cross-client proof-of-authority [Ethereum 1.x testnet](https://githu
 
 ### See also
 In the news:
-- [Coin Telegraph: Realistic Ethereum 2.0 Multi-Client Testnet 'Targeting for June' ](https://cointelegraph.com/news/realistic-ethereum-20-multi-client-testnet-targeting-for-june)
+- [Cointelegraph: Latest Eth 2.0 Testnet on Track for June Launch](https://cointelegraph.com/news/latest-eth-20-testnet-on-track-for-june-launch)
+- [Cointelegraph: Realistic Ethereum 2.0 Multi-Client Testnet 'Targeting for June' ](https://cointelegraph.com/news/realistic-ethereum-20-multi-client-testnet-targeting-for-june)
 - [Coindesk: Schlesi Testnet Is Latest Step in Long Road Toward Eth 2.0](https://www.coindesk.com/ethereum-schlesi-testnet-eth-2-0)
 - [Blockonomi: Ethereum 2.0 Specter Grows with Launch of “Schlesi” Multi-Client Testnet](https://blockonomi.com/ethereum-2-launch-schlesi-multi-client-testnet/)
 - [The Block: Ethereum 2.0's Phase 0 multiclient testnets will likely go live in April](https://www.theblockcrypto.com/post/60292/ethereum-2-0s-phase-0-multiclient-testnets-will-likely-go-live-in-april-predicts-buterin)
