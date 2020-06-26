@@ -1,6 +1,5 @@
 # Local setup
 *.pass
-*.txt
 
 # Logs
 logs
