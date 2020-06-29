@@ -2,8 +2,8 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
-* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) _(soon)_
-* **Witti** v0.11.3 testnet: [witti/README.md](./witti/README.md) (**active**)
+* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
+* Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
 * _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
   
