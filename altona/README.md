@@ -14,7 +14,7 @@ This repository contains the client configuration files and genesis state for th
 - Genesis Block Root:
 - Deposit Contract: `0x16e82D77882A663454Ef92806b7DeCa1D394810f`
 - Chain Explorers: [altona.beaconcha.in](https://altona.beaconcha.in/)
-- Status Dashboard:
+- Status Dashboard: [eth2stats.io/altona-testnet](https://eth2stats.io/altona-testnet)
 
 Client support:
 - [ ] Cortex
