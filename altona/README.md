@@ -9,6 +9,7 @@
 
 This repository contains the client configuration files and genesis state for the `v0.12.1` Ethereum 2.0 specification multi-client testnet _"Altona v0.12"_ for the following clients:
 - Genesis Time: `1593433805` (2020-06-29 12:30:05 +0000 UTC)
+- Genesis Fork Version: `0x00000121`
 - Fork Digest: `fdca39b0`
 - Initial State Root: `0x939d98077986a9f6eccae33614e2da1008a2f300f1aac36bc65ef710550eec4a`
 - Genesis Block Root: `0x9e2ffe8ab9316e03e45409eaaffab10cf02e1b60e609276113e07240d4a31b7a`
