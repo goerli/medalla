@@ -8,13 +8,13 @@
 ![trinity](https://img.shields.io/badge/trinity-in--progress-yellow)
 
 This repository contains the client configuration files and genesis state for the `v0.12.1` Ethereum 2.0 specification multi-client testnet _"Altona v0.12"_ for the following clients:
-- Genesis Time: _estimated Monday June/29 ~12:30 UTC_
-- Fork Digest:
-- Initial State Root:
-- Genesis Block Root:
-- Deposit Contract: `0x16e82D77882A663454Ef92806b7DeCa1D394810f`
+- Genesis Time: `1593433805` (2020-06-29 12:30:05 +0000 UTC)
+- Fork Digest: `fdca39b0`
+- Initial State Root: `0x939d98077986a9f6eccae33614e2da1008a2f300f1aac36bc65ef710550eec4a`
+- Genesis Block Root: `0x9e2ffe8ab9316e03e45409eaaffab10cf02e1b60e609276113e07240d4a31b7a`
+- Deposit Contract: [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) ([Goerli Testnet](https://github.com/goerli/testnet)
 - Chain Explorers: [altona.beaconcha.in](https://altona.beaconcha.in/)
-- Status Dashboard:
+- Status Dashboard: [eth2stats.io/altona-testnet](https://eth2stats.io/altona-testnet)
 
 Client support:
 - [ ] Cortex
