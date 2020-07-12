@@ -13,7 +13,7 @@ This repository contains the client configuration files and genesis state for th
 - Fork Digest: `fdca39b0`
 - Initial State Root: `0x939d98077986a9f6eccae33614e2da1008a2f300f1aac36bc65ef710550eec4a`
 - Genesis Block Root: `0x9e2ffe8ab9316e03e45409eaaffab10cf02e1b60e609276113e07240d4a31b7a`
-- Deposit Contract: [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) ([Goerli Testnet](https://github.com/goerli/testnet)
+- Deposit Contract: [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) ([Goerli Testnet](https://github.com/goerli/testnet))
 - Chain Explorers: [altona.beaconcha.in](https://altona.beaconcha.in/)
 - Status Dashboard: [eth2stats.io/altona-testnet](https://eth2stats.io/altona-testnet)
 
