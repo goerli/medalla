@@ -2,6 +2,7 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
+* Medalla v0.12.2 "official," public testnet: _TBD_
 * **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
 * Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
