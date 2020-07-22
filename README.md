@@ -1,4 +1,7 @@
 # Ethereum 2.0 Multi-Client Testnets
+  
+[![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
+[![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
@@ -7,9 +10,8 @@ This repository has become a collection of multiple active and inactive testnets
 * Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
 * _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
-  
-[![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
-[![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
+
+Or read the generalized outline on how to launch your own testnet: [LAUNCH.md](./LAUNCH.md)
 
 ### F.A.Q.
 _I'm wondering ..._
