@@ -21,9 +21,9 @@ The first phase of Ethereum 2.0, the phase 0, is the beacon chain. For the first
 
 Before such a mainnet can be launched, we need testnets that mimic mainnet conditions as good as possible. This requires us to have stable, long-term, and persistent testnets up and running that are supported by not only one client but multiple clients, ideally, all clients.
 
-The Schlesi testnet was one of many steps in that direction. The Witti testnet was another. The Altona testnet is yet another. The Medalla Milagrosa testnet aims to be the final one prior to mainnet launch.
+The Schlesi testnet was one of many steps in that direction. The Witti testnet was another. The Altona testnet is yet another. The Medalla testnet aims to be the final one prior to mainnet launch.
 
-##### Is _Medalla Milagrosa_ the official, public multi-client testnet?
+##### Is _Medalla_ the official, public multi-client testnet?
 Yes.
 
 ##### What's the difference between Altona and _Onyx_?
