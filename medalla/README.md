@@ -1,4 +1,4 @@
-# Medalla Milagrosa ETH 2.0 Testnet
+# Medalla ETH 2.0 Testnet
 ![cortex](https://img.shields.io/badge/cortex-n%2Fa-inactive)
 ![lighthouse](https://img.shields.io/badge/lighthouse-active-success)
 ![lodestar](https://img.shields.io/badge/lodestar-in--progress-yellow)
@@ -7,7 +7,7 @@
 ![teku](https://img.shields.io/badge/teku-active-success)
 ![trinity](https://img.shields.io/badge/trinity-in--progress-yellow)
 
-This repository contains the client configuration files and genesis state for the _"official," public, `v0.12.2` Ethereum 2.0 specification multi-client testnet _"Medalla Milagrosa v0.12"_ for the following clients:
+This repository contains the client configuration files and genesis state for the _"official," public, `v0.12.2` Ethereum 2.0 specification multi-client testnet _"Medalla v0.12"_ for the following clients:
 - Genesis Time:
 - Genesis Fork Version: `0x00000001`
 - Fork Digest:
