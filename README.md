@@ -2,8 +2,8 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
-* Medalla Milagrosa v0.12.2 "official," public testnet: _TBD_
-* **Altona** v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
+* **Medalla Milagrosa** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (_prepared_)
+* Altona v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
 * Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
 * _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
@@ -19,7 +19,10 @@ The first phase of Ethereum 2.0, the phase 0, is the beacon chain. For the first
 
 Before such a mainnet can be launched, we need testnets that mimic mainnet conditions as good as possible. This requires us to have stable, long-term, and persistent testnets up and running that are supported by not only one client but multiple clients, ideally, all clients.
 
-The Schlesi testnet was one of many steps in that direction. The Witti testnet was another. The Altona testnet is yet another.
+The Schlesi testnet was one of many steps in that direction. The Witti testnet was another. The Altona testnet is yet another. The Medalla Milagrosa testnet aims to be the final one prior to mainnet launch.
+
+##### Is _Medalla Milagrosa_ the official, public multi-client testnet?
+Yes.
 
 ##### What's the difference between Altona and _Onyx_?
 The [Onyx Testnet](https://medium.com/prysmatic-labs/introducing-the-onyx-testnet-6dadbd95d873) is a single-client testnet launched by the Prysmatic Labs team to replace _Topaz_. It's entirely comprised of Prysm validators, other clients didn't have releases at genesis yet.
@@ -50,7 +53,10 @@ Additionally, not having a script that does the job for you, ensures that all no
 ##### Is _Altona_ an incentivized adversarial network?
 No. The Altona testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) on the _Goerli_ Ethereum testnet and start validating on Altona.
 
-##### Why do you call it _Altona_?
+##### Why do you call it _Medalla_ or _Medalla Milagrosa_?
+Medalla Milagrosa is a station on Line E of the Buenos Aires subway. It was proposed on Discord by the Argentinian community.
+
+##### Why did you call Altona _Altona_?
 Altona is a subway station in the city of Hamburg, Germany. It was [proposed on Reddit by u/krokodilmannchen](https://www.reddit.com/r/ethfinance/comments/guf8lr/daily_general_discussion_june_1_2020/fsil2n8/).
 
 ##### Why did you call Witti _Witti_?
