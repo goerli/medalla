@@ -16,6 +16,7 @@ This repository contains the client configuration files and genesis state for th
 - Deposit Contract: [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) ([Goerli Testnet](https://github.com/goerli/testnet))
 - Chain Explorers: 
     - [altona.beaconcha.in](https://altona.beaconcha.in/)
+    - [beaconscan.com/altona](https://beaconscan.com/altona)
     - [altona.blockaction.io](https://altona.blockaction.io/)
 - Status Dashboard: [eth2stats.io/altona-testnet](https://eth2stats.io/altona-testnet)
 
