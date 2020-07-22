@@ -2,7 +2,7 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
-* **Medalla Milagrosa** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (_prepared_)
+* **Medalla** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (_prepared_)
 * Altona v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
 * Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
@@ -53,8 +53,8 @@ Additionally, not having a script that does the job for you, ensures that all no
 ##### Is _Altona_ an incentivized adversarial network?
 No. The Altona testnet is not incentivized. The current goal is to ensure protocol compatibility across major ETH 2.0 client implementations. Participation is free and permissionless, everyone can create validator deposits at [`0x16e82D77882A663454Ef92806b7DeCa1D394810f`](https://goerli.etherscan.io/address/0x16e82D77882A663454Ef92806b7DeCa1D394810f) on the _Goerli_ Ethereum testnet and start validating on Altona.
 
-##### Why do you call it _Medalla_ or _Medalla Milagrosa_?
-Medalla Milagrosa is a station on Line E of the Buenos Aires subway. It was proposed on Discord by the Argentinian community.
+##### Why do you call it _Medalla_?
+Medalla means "medal" and can be seen as a reference to the _Olympic_ testnet that was used to prepare the ETH1 launch. It emphasizes the importance of the network at this stage towards the ETH2 launch. It can also be seen as a hint that Medalla validators will recieve a [proof of attendance "medal"](https://poap.xyz) on the Ethereum network for participation.
 
 ##### Why did you call Altona _Altona_?
 Altona is a subway station in the city of Hamburg, Germany. It was [proposed on Reddit by u/krokodilmannchen](https://www.reddit.com/r/ethfinance/comments/guf8lr/daily_general_discussion_june_1_2020/fsil2n8/).
