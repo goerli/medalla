@@ -6,6 +6,9 @@
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
 * **Medalla** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (_prepared_)
+    ```
+    / meh-dah-shah test-net /
+    ```
 * Altona v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
 * Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
@@ -72,6 +75,7 @@ Goerli is a cross-client proof-of-authority [Ethereum 1.x testnet](https://githu
 
 ### See also
 In the news:
+- [Coindesk: Ethereum 2.0 Developers Announce ‘Final’ Testnet Before Network Launch](https://www.coindesk.com/ethereum-2-0-developers-announce-final-testnet-before-network-launch)
 - [Cointelegraph: Latest Eth 2.0 Testnet on Track for June Launch](https://cointelegraph.com/news/latest-eth-20-testnet-on-track-for-june-launch)
 - [Cointelegraph: Realistic Ethereum 2.0 Multi-Client Testnet 'Targeting for June' ](https://cointelegraph.com/news/realistic-ethereum-20-multi-client-testnet-targeting-for-june)
 - [Coindesk: Schlesi Testnet Is Latest Step in Long Road Toward Eth 2.0](https://www.coindesk.com/ethereum-schlesi-testnet-eth-2-0)
@@ -86,6 +90,8 @@ Resources:
 - [Stack Exchange: How would a chain specification for a beacon chain look like?](https://ethereum.stackexchange.com/questions/80264/how-would-a-chain-specification-for-a-beacon-chain-look-like)
 
 Historical documentation:
+- [Analysis: Multi-client benchmark on Altona testnet 2020/07/16](https://github.com/q9f/eth2-bench-2020-07)
+- [Analysis: Multi-client benchmark on Witti testnet 2020/06/22](https://github.com/q9f/eth2-bench-2020-06)
 - [Analysis: A (DHT) Crawl Through The Witti Testnet 🕷](https://txrx-research.github.io/prkl/testnet-analysis.html)
 - [Archived: Schlesi v0.11.2 ETH 2.0 Testnet](./.trash/schlesi/README.md)
 - [Gist: Schlesi ETH 2.0 Multi-Client Testnet configuration](https://gist.github.com/q9f/d6eea3ea3356e41bde81864143284ce9)
