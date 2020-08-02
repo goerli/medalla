@@ -8,7 +8,7 @@
 ![trinity](https://img.shields.io/badge/trinity-in--progress-yellow)
 
 This repository contains the client configuration files and genesis state for the _"official,"_ public, `v0.12.2` Ethereum 2.0 specification multi-client testnet _"Medalla v0.12"_ for the following clients:
-- Genesis Time: `1596546000`
+- Genesis Time: `1596546008`
 - Genesis Fork Version: `0x00000001`
 - Fork Digest:
 - Initial State Root:
