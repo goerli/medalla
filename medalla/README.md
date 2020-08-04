@@ -17,6 +17,7 @@ This repository contains the client configuration files and genesis state for th
 - Chain Explorers:
   - [beaconcha.in](https://beaconcha.in)
   - [beaconscan.com](https://beaconscan.com)
+  - [blockaction.io](https://blockaction.io)
 - Status Dashboard: [eth2stats.io](https://eth2stats.io)
 
 Client support:
