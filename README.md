@@ -5,11 +5,11 @@
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
 
-* **Medalla** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (_prepared_)
+* **Medalla** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (**active**)
     ```
     / meh-dah-shah test-net /
     ```
-* Altona v0.12.1 testnet: [altona/README.md](./altona/README.md) (**active**)
+* Altona v0.12.1 testnet: [altona/README.md](./altona/README.md) (active)
 * Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
 * _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
@@ -85,6 +85,7 @@ In the news:
 - [The Block: Ethereum 2.0's Phase 0 multiclient testnets will likely go live in April](https://www.theblockcrypto.com/post/60292/ethereum-2-0s-phase-0-multiclient-testnets-will-likely-go-live-in-april-predicts-buterin)
 
 Resources:
+- [Video: EDCON 2020 Keynote - Final Road to Ethereum 2.0: Multi-Client Testnets](https://www.youtube.com/watch?v=7yQLN49bb30)
 - [Article: Schlesi is Dead, Long Live Witti!](https://medium.com/@SomerEsat/schlesi-is-dead-long-live-witti-151178064c3c)
 - [Notes: Longstanding MC-testnet(s)](https://notes.ethereum.org/DLu2WPtDSMOeNlnBth03Dw)
 - [Article: How to run your own Beacon Chain](https://dev.to/q9/how-to-run-your-own-beacon-chain-e70)
