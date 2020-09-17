@@ -8,8 +8,8 @@
 ![trinity](https://img.shields.io/badge/trinity-in--progress-yellow)
 
 This repository contains the client configuration files and genesis state for the _"dress rehearsal"_ `v0.12.3` Ethereum 2.0 multi-client testnet _"Spadina v0.12"_:
-- Genesis Time: `1601380800`
-- Genesis Fork Version: `0x00000000`
+- (Min) Genesis Time: `1601380800`
+- Genesis Fork Version: `0x00000002`
 - Fork Digest:
 - Initial State Root:
 - Genesis Block Root:
