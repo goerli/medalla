@@ -3,7 +3,7 @@
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
-* **Spadina** v0.12.2 _dress rehearsal_ testnet:  [spadina/README.md](./spadina/README.md) _(scheduled)_
+* **Spadina** v0.12.3 _dress rehearsal_ testnet:  [spadina/README.md](./spadina/README.md) _(scheduled)_
 * **Medalla** v0.12.2 _public_ testnet: [medalla/README.md](./medalla/README.md) (**active**)
     ```
     / meh-dah-shah test-net /
