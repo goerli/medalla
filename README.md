@@ -1,18 +1,17 @@
 # Ethereum 2.0 Multi-Client Testnets
-  
 [![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
-
-* **Medalla** v0.12.2 _"official,"_ public testnet:  [medalla/README.md](./medalla/README.md) (**active**)
+* **Spadina** v0.12.3 _dress rehearsal_ testnet:  [spadina/README.md](./spadina/README.md) _(scheduled)_
+* **Medalla** v0.12.2 _public_ testnet: [medalla/README.md](./medalla/README.md) (**active**)
     ```
     / meh-dah-shah test-net /
     ```
-* Altona v0.12.1 testnet: [altona/README.md](./altona/README.md) (active)
-* Witti v0.11.3 testnet: [witti/README.md](./witti/README.md) _(inactive)_
-* Schlesi v0.11.2 testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
-* _Unnamed_ v0.10.1 testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
+* Altona v0.12.1 dev-testnet: [altona/README.md](./altona/README.md) (active)
+* Witti v0.11.3 dev-testnet: [witti/README.md](./witti/README.md) _(inactive)_
+* Schlesi v0.11.2 dev-testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
+* _Unnamed_ v0.10.1 dev-testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
 
 Or read the generalized outline on how to launch your own testnet: [LAUNCH.md](./LAUNCH.md)
 

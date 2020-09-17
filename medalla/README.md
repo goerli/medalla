@@ -7,7 +7,7 @@
 ![teku](https://img.shields.io/badge/teku-active-success)
 ![trinity](https://img.shields.io/badge/trinity-in--progress-yellow)
 
-This repository contains the client configuration files and genesis state for the _"official,"_ public, `v0.12.2` Ethereum 2.0 specification multi-client testnet _"Medalla v0.12"_ for the following clients:
+This repository contains the client configuration files and genesis state for the _"official,"_ public, `v0.12.2` Ethereum 2.0 multi-client testnet _"Medalla v0.12"_:
 - Genesis Time: `1596546008`
 - Genesis Fork Version: `0x00000001`
 - Fork Digest: `0xe7a75d5a`
@@ -18,13 +18,13 @@ This repository contains the client configuration files and genesis state for th
   - [beaconcha.in](https://beaconcha.in)
   - [beaconscan.com](https://beaconscan.com)
   - [blockaction.io](https://blockaction.io)
-- Status Dashboard: 
+- Status Dashboard:
   - [eth2stats.io](https://eth2stats.io)
   - [eth2.ethernodes.org](https://eth2.ethernodes.org/network/Medalla)
 
 Client support:
 - [ ] Cortex
-- [X] Lighthouse
+- [x] Lighthouse
 - [x] Lodestar
 - [x] Nimbus
 - [x] Prysm
