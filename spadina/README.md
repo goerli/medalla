@@ -14,7 +14,8 @@ This repository contains the client configuration files and genesis state for th
 - Initial State Root:
 - Genesis Block Root:
 - Deposit Contract: [`0x48B597F4b53C21B48AD95c7256B49D1779Bd5890`](https://goerli.etherscan.io/address/0x48B597F4b53C21B48AD95c7256B49D1779Bd5890) ([Goerli Testnet](https://github.com/goerli/testnet))
-- Chain Explorers:
+- Launchpads: https://spadina.launchpad.ethereum.org/
+- Chain Explorers: https://spadina.beaconcha.in/
 - Status Dashboard:
 
 Client support:
