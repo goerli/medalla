@@ -1,7 +1,7 @@
 # Zinken ETH 2.0 Testnet
 
 This repository contains the client configuration files and genesis state for the _"dress rehearsal"_ `v0.12.3` Ethereum 2.0 multi-client testnet _"Zinken v0.12"_:
-- (Min) Genesis Time: `2020-10-05 12:00:00 UTC`
+- (Min) Genesis Time: `2020-10-12 12:00:00 UTC`
 - Genesys Delay: 4 days
 - Genesis Fork Version: `0x00000003`
 - Fork Digest:
