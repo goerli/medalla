@@ -75,6 +75,12 @@ Goerli is a cross-client proof-of-authority [Ethereum 1.x testnet](https://githu
 
 ### See also
 In the news:
+- [The Block: Ethereum 2.0 testnet 'Spadina' goes live ahead of the mainnet release](https://www.theblockcrypto.com/linked/79092/ethereum-2-spadina-testnet-live)
+- [Cointelegraph: Launch rehearsal for Ethereum 2.0 "90% successful" despite participation issues](https://cointelegraph.com/news/launch-rehearsal-for-ethereum-2-0-90-successful-despite-participation-issues)
+- [Coindesk: Ethereum 2.0 Developers Launch Spadina, a Three-Day Practice Testnet](https://www.coindesk.com/spadina-ethereum-2-0-testnet)
+- [Cointelegraph: Medalla Testnet Problems "Will Not Delay ETH 2.0" Says Prysmatic Labs](https://cointelegraph.com/news/medalla-testnet-problems-will-not-delay-eth-20-says-prysmatic-labs)
+- [Cointelegraph: Ethereum Medalla Testnet Launch Suffers Block Finality Issue](https://cointelegraph.com/news/ethereum-medalla-testnet-launch-suffers-block-finality-issue)
+- [Coindesk: Ethereum 2.0 Testnet Medalla Goes Live With 20,000 Validators](https://www.coindesk.com/ethereum-2-0-testnet-medalla-goes-live-with-20000-validators)
 - [Cointelegraph: Eth 2.0 Dev Shares Details of Upcoming Community Testnet](https://cointelegraph.com/news/eth-20-dev-shares-details-of-upcoming-community-testnet)
 - [Cointelegraph: Ethereum 2.0 Final Testnet Set to Launch on August 4 ](https://cointelegraph.com/news/ethereum-20-final-testnet-set-to-launch-on-august-4)
 - [Coindesk: Ethereum 2.0 Developers Announce ‘Final’ Testnet Before Network Launch](https://www.coindesk.com/ethereum-2-0-developers-announce-final-testnet-before-network-launch)
