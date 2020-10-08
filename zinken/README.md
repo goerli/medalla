@@ -8,8 +8,8 @@ This repository contains the client configuration files and genesis state for th
 - Initial State Root:
 - Genesis Block Root:
 - Deposit Contract: [`0x99F0Ec06548b086E46Cb0019C78D0b9b9F36cD53`](https://goerli.etherscan.io/address/0x99F0Ec06548b086E46Cb0019C78D0b9b9F36cD53) ([Goerli Testnet](https://github.com/goerli/testnet))
-- Launchpads:
-- Chain Explorers:
+- Launchpads: [ethereum.org](https://zinken.launchpad.ethereum.org/)
+- Chain Explorers: [beaconcha.in](https://zinken.beaconcha.in/)
 
 ### License
 This is free and unencumbered software released into the public domain. For more information, please refer to [unlicense.org](https://unlicense.org)
