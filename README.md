@@ -3,13 +3,14 @@
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
-* **Zinken** v0.12.3 _dress rehearsal_ testnet:  [zinken/README.md](./zinken/README.md) _(scheduled)_
+* Ad-hoc v1.0.0 dev-testnet templates: [adhoc/README.md](./adhoc/README.md) _(unused)_
+* Zinken v0.12.3 _dress rehearsal_ testnet:  [zinken/README.md](./zinken/README.md) _(inactive)_
 * Spadina v0.12.3 _dress rehearsal_ testnet:  [spadina/README.md](./spadina/README.md) _(inactive)_
 * **Medalla** v0.12.2 _public_ testnet: [medalla/README.md](./medalla/README.md) (**active**)
     ```
     / meh-dah-shah test-net /
     ```
-* Altona v0.12.1 dev-testnet: [altona/README.md](./altona/README.md) (active)
+* Altona v0.12.1 dev-testnet: [altona/README.md](./altona/README.md) _(inactive)_
 * Witti v0.11.3 dev-testnet: [witti/README.md](./witti/README.md) _(inactive)_
 * Schlesi v0.11.2 dev-testnet: [schlesi/README.md](./.trash/schlesi/README.md) _(inactive)_
 * _Unnamed_ v0.10.1 dev-testnet: [v0-10-1/README.md](./.trash/v0-10-1/README.md) _(inactive)_:
