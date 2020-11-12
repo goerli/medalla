@@ -3,6 +3,7 @@
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
 
 This repository has become a collection of multiple active and inactive testnets. Please refer to the following specs for details:
+* Toledo v1.0.0 dev-testnet is hosted at: https://github.com/protolambda/toledo
 * Ad-hoc v1.0.0 dev-testnet templates: [adhoc/README.md](./adhoc/README.md) _(unused)_
 * Zinken v0.12.3 _dress rehearsal_ testnet:  [zinken/README.md](./zinken/README.md) _(inactive)_
 * Spadina v0.12.3 _dress rehearsal_ testnet:  [spadina/README.md](./spadina/README.md) _(inactive)_
