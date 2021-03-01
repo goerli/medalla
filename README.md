@@ -1,3 +1,7 @@
+:warning: for post-launch testnets, check: https://github.com/eth2-clients/eth2-testnets
+
+---
+
 # Ethereum 2.0 Multi-Client Testnets
 [![discord](https://img.shields.io/badge/discord-eth2%23schlesi-9cf)](https://discord.gg/P5TRzdb)
 [![gitter](https://img.shields.io/badge/gitter-goerli%2Fschlesi-f6b)](https://gitter.im/goerli/schlesi)
