@@ -1,4 +1,4 @@
-:warning: for post-launch testnets, check: https://github.com/eth2-clients/eth2-testnets
+:warning: for post-launch testnets, check: https://github.com/eth-clients/eth2-testnets
 
 ---
 
@@ -45,7 +45,7 @@ Altona, Witti, and Schlesi, on the other side, tried to have as many different c
 The [Topaz Testnet](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) is a single-client testnet. Same reasoning as _Onyx_ above.
 
 ##### What's the difference between Altona and _Multinet_?
-The [ETH 2.0 Multinet](https://github.com/eth2-clients/multinet) is a collection of startup scripts to simulate multi-client testnets with various parameters such as number of validators to run the network with. The multinet is based on a minimal ETH 2.0 specification.
+The [ETH 2.0 Multinet](https://github.com/eth-clients/multinet) is a collection of startup scripts to simulate multi-client testnets with various parameters such as number of validators to run the network with. The multinet is based on a minimal ETH 2.0 specification.
 
 Altona, however, is _not_ a simulation. It's a real persistent end-user testnet based on a slightly modified mainnet configuration. Everyone should be able to add validators and beacon chain nodes.
 
@@ -115,8 +115,8 @@ Historical documentation:
 - [Call: EF Research & Görli Testnet “Multi-Client Testnet for ETH 2.0”](https://hackmd.io/Nx204wkTSgeGB0UzNXhz9g)
 
 Previous multi-client testnets:
-- [Github: eth2-clients/multinet](https://github.com/eth2-clients/multinet)
-- [Github: eth2-clients/eth2-testnets](https://github.com/eth2-clients/eth2-testnets)
+- [Github: eth-clients/multinet](https://github.com/eth-clients/multinet)
+- [Github: eth-clients/eth2-testnets](https://github.com/eth-clients/eth2-testnets)
 
 ### Support
 This project is supported by the:
